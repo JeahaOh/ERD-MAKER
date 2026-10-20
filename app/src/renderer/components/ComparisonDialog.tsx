@@ -1,0 +1,17 @@
+import { useState } from 'react';
+import { FolderOpen, Download } from 'lucide-react';
+import type { NativeComparison } from '../../formats/exerd/compare';
+import { Modal } from './ui';
+import { download } from '../browser/exports';
+
+export type CompareModel = (bytes: Uint8Array) => Promise<NativeComparison | undefined>;
+const encoded = (value: unknown) => value === undefined ? '—' : JSON.stringify(value, (_, v) => typeof v === 'bigint' ? String(v) : v);
+export function ComparisonDialog({ compare, close, select }: { compare: CompareModel; close: () => void; select: (uuid: string) => void }) {
+  const [result, setResult] = useState<NativeComparison>(), [filename, setFilename] = useState(''), [working, setWorking] = useState(false), [filter, setFilter] = useState(''), [limit, setLimit] = useState(100), [error, setError] = useState('');
+  const changes = result?.changes.filter(change => !filter || change.kind === filter) || [];
+  return <Modal title="모델 비교" subtitle="현재 모델과 다른 eXERD 파일의 객체·속성·참조·배치를 비교합니다." close={close} wide>
+    <div className="modal-body diagnostic-list"><label className="secondary-button file-button"><FolderOpen size={14} />비교할 파일 선택<input type="file" accept=".exerd" aria-label="비교할 eXERD 파일" hidden onChange={async e => { const file = e.target.files?.[0]; if (!file) return; if (file.size > 128 * 1024 * 1024) { setError('128 MiB 이하의 파일을 선택해 주세요.'); return; } setWorking(true); setError(''); setResult(undefined); const next = await compare(new Uint8Array(await file.arrayBuffer())); setResult(next); setFilename(file.name); setWorking(false); setLimit(100); }} /></label><p className="help-text">{working ? '모델 비교 중…' : filename || '비교해도 현재 모델은 변경되지 않습니다.'}</p>{error && <p role="alert" className="export-warning">{error}</p>}
+      {result && <><p className="validation-summary">추가 {result.summary.added} · 삭제 {result.summary.removed} · 변경 {result.summary.changed} · 이동 {result.summary.moved}</p>{result.summary.tentativeMatches > 0 && <p className="export-warning">이름을 기준으로 임시 연결한 객체 {result.summary.tentativeMatches}개가 있습니다. 같은 객체인지 검토해 주세요.</p>}<label className="field"><span>표시할 변경</span><select aria-label="비교 변경 필터" value={filter} onChange={e => { setFilter(e.target.value); setLimit(100); }}><option value="">전체</option><option value="added">추가</option><option value="removed">삭제</option><option value="changed">속성 변경</option><option value="moved">이동</option></select></label>{changes.slice(0, limit).map(change => <button className="diagnostic" key={change.id} onClick={() => { if (change.uuid) select(change.uuid); }}><span>{({ added: '추가', removed: '삭제', changed: '변경', moved: '이동' })[change.kind]}</span><div><strong>{change.objectType.split('#').at(-1)}{change.feature ? ' · ' + change.feature : ''}</strong><small>{change.path}</small><p className="help-text">이전: {encoded(change.before)}<br />이후: {encoded(change.after)}</p></div></button>)}{changes.length > limit && <button className="secondary-button" onClick={() => setLimit(limit + 100)}>다음 100개 표시</button>}{!changes.length && <p className="help-text">이 범위에 차이가 없습니다.</p>}</>}
+    </div><footer className="modal-actions"><button className="secondary-button" onClick={close}>닫기</button><button className="primary-button" disabled={!result || working} onClick={() => result && download(JSON.stringify(result, (_, v) => typeof v === 'bigint' ? String(v) : v, 2), 'model-comparison.json', 'application/json')}><Download size={14} />비교 결과 저장</button></footer>
+  </Modal>;
+}

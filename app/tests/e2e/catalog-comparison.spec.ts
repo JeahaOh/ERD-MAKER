@@ -1,0 +1,31 @@
+import { expect, test } from '@playwright/test';
+import { readFileSync } from 'node:fs';
+import type { BinaryRegistry } from '../../src/formats/exerd/binary';
+import { openNativeDocument } from '../../src/formats/exerd/native-document';
+import { projectNativeDocument } from '../../src/formats/exerd/view';
+const registry = JSON.parse(readFileSync('app/src/formats/exerd/schema.generated.json', 'utf8')) as BinaryRegistry;
+
+test('PostgreSQL catalog import, native export and whole-model comparison', async ({ page }) => {
+  const errors: string[] = []; page.on('pageerror', error => errors.push(error.message));
+  await page.goto('/');
+  await page.getByLabel('PostgreSQL 카탈로그 파일', { exact: true }).setInputFiles('app/tests/fixtures/postgres-catalog.json');
+  const review = page.getByRole('dialog', { name: 'PostgreSQL 카탈로그 가져오기', exact: true });
+  await expect(review).toContainText('2 테이블 · 5 컬럼 · 1 외래키');
+  await review.getByRole('button', { name: '모델로 가져오기', exact: true }).click();
+  await expect(page.locator('.entity-tree > button')).toHaveCount(2);
+  await expect(page.locator('.statusbar')).toContainText('5 컬럼');
+  const waiting = page.waitForEvent('download');
+  await page.getByRole('button', { name: '파일 저장', exact: true }).click();
+  const result = await waiting, path = (await result.path())!;
+  const view = projectNativeDocument(openNativeDocument(readFileSync(path), registry));
+  expect(view.allTables).toHaveLength(2); expect(view.allRelationships).toHaveLength(1);
+  expect(view.allTables.reduce((n, t) => n + t.checks.length, 0)).toBe(1);
+  await page.getByRole('button', { name: '비교', exact: true }).click();
+  await page.getByLabel('비교할 eXERD 파일', { exact: true }).setInputFiles(path);
+  await expect(page.getByRole('dialog', { name: '모델 비교', exact: true })).toContainText('추가 0 · 삭제 0 · 변경 0 · 이동 0');
+  const comparing = page.waitForEvent('download');
+  await page.getByRole('button', { name: '비교 결과 저장', exact: true }).click();
+  const report = JSON.parse(readFileSync((await (await comparing).path())!, 'utf8'));
+  expect(report.summary.total).toBe(0); expect(report.summary.tentativeMatches).toBe(0);
+  expect(errors).toEqual([]);
+});

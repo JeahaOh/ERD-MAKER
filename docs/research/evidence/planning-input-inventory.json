@@ -1,0 +1,184 @@
+{
+  "schemaVersion": 1,
+  "inspectedAt": "2026-10-15",
+  "method": "Read-only standard-library container decode and XML element inventory; no original application execution, no edited output, no production-code changes.",
+  "sourceFiles": [
+    {
+      "path": "REF/S2B_DA_D00_ERD_20260922_V1.0.exerd",
+      "bytes": 934577,
+      "sha256": "8726f30743915a8b6e3b1a34f1617667d38f06c93811d23aa5a2fea2681d117a"
+    },
+    {
+      "path": "REF/eXERD_Installer_v3.3.56.20260820-1610_x64.exe",
+      "bytes": 412784128,
+      "sha256": "61fad0efec6125d333524d967c318cc9b94a566b0d06c9d25b1af3ddf7853a0a"
+    },
+    {
+      "path": "REF/updateSite (1).zip",
+      "bytes": 123025418,
+      "sha256": "9262e03d7ca17b9c365164cd6f235a8751e78f1a1fd6bc7b7342f85d806d9156"
+    },
+    {
+      "path": "REF/updateSite.zip",
+      "bytes": 165814869,
+      "sha256": "daedb252b7e4644e7484dd9d1d22d93083c71fc61c63142c8b811d3a9906841d"
+    }
+  ],
+  "userModel": {
+    "path": "REF/S2B_DA_D00_ERD_20260922_V1.0.exerd",
+    "bytes": 934577,
+    "sha256": "8726f30743915a8b6e3b1a34f1617667d38f06c93811d23aa5a2fea2681d117a",
+    "containerVersion": [
+      3,
+      0,
+      0
+    ],
+    "qualifier": "20190111-1604",
+    "firstEntryDeclaredBytes": 435835,
+    "rootTag": "{http://exerd.tomato.com/model}Document",
+    "savedByVersion": "3.3.52.20251215-1447",
+    "modelVersion": "3.0.0.20190111-1604",
+    "productId": "com.tomato.db.postgresql",
+    "entries": [
+      {
+        "name": "xml-content.xml",
+        "uncompressedBytes": 5381614,
+        "sha256": "b601124011efccd68cad2f6f219b6898067b6363acd3dccf55359350ae5891c0",
+        "crcVerified": true,
+        "prefixHex": "3c3f786d6c2076657273696f6e3d2231"
+      },
+      {
+        "name": "binary-content",
+        "uncompressedBytes": 2371391,
+        "sha256": "768e422fb92e5b39645289777798869e72d18e7f9a46b8449edee306c4327dd3",
+        "crcVerified": true,
+        "prefixHex": "89656d660a0d1a0a000201011e687474"
+      }
+    ],
+    "unparsedTrailingBytes": 0,
+    "counts": {
+      "schemas": 10,
+      "tables": 609,
+      "columns": 10045,
+      "primaryKeyGroups": 609,
+      "foreignKeyGroups": 561,
+      "alternateKeyGroups": 9,
+      "inversionEntryGroups": 93,
+      "checkPropertyNodes": 492,
+      "uniquePropertyNodes": 8,
+      "domains": 118,
+      "businessAreas": 10,
+      "diagrams": 38,
+      "tablePlacements": 615,
+      "notes": 53,
+      "relationNodes": 561,
+      "uuidCount": 34853,
+      "duplicateUuids": 0,
+      "columnsUsingDomainReference": 8750,
+      "distinctPlacedTableReferences": 609,
+      "tableReferencesPlacedMoreThanOnce": 5
+    },
+    "xmlTagCounts": {
+      "Document": 1,
+      "relationManager": 1,
+      "relation": 561,
+      "value": 2907,
+      "configuration": 1,
+      "domainDefinition": 1,
+      "domain": 118,
+      "viewSettingsPreset": 4,
+      "cellsToShow": 126,
+      "businessAreas": 10,
+      "diagrams": 38,
+      "diagramEntry": 668,
+      "viewSettings": 38,
+      "printSettings": 38,
+      "databaseModel": 1,
+      "physicalProperties": 14494,
+      "tablespaceGroup": 1,
+      "schema": 10,
+      "sequenceGroup": 2,
+      "userDatatypeGroup": 2,
+      "tables": 609,
+      "tableVacuum": 609,
+      "toastVacuum": 609,
+      "columns": 10045,
+      "memberships": 2346,
+      "columnGroups": 1272,
+      "foreignKeyConstraint": 561,
+      "primaryKeyConstraint": 609,
+      "checkConstraints": 492,
+      "uniqueConstraint": 8,
+      "sharedIcons": 1
+    },
+    "xsiTypeCounts": {
+      "TableDiagram": 615,
+      "Note": 53,
+      "DatabaseProperties": 1,
+      "SchemaProperties": 2,
+      "TableProperties": 609,
+      "ColumnProperties": 9156,
+      "ColumnReference": 892,
+      "IndexableMembershipProperties": 2346,
+      "PrimaryKeyMembership": 1303,
+      "ForeignKeyColumnGroup": 561,
+      "ForeignKeyConstraintProperties": 561,
+      "PrimaryKeyColumnGroup": 609,
+      "IndexProperties": 711,
+      "PrimaryKeyConstraintProperties": 608,
+      "CheckConstraintProperties": 492,
+      "InversionEntryMembership": 139,
+      "InversionEntryColumnGroup": 93,
+      "AlternateKeyMembership": 12,
+      "AlternateKeyColumnGroup": 9,
+      "UniqueConstraintProperties": 8
+    }
+  },
+  "limits": [
+    "Element counts establish stored XML shape, not runtime behavior or successful original-application reopening.",
+    "binary-content semantics and references are not yet decoded.",
+    "No byte-preserving writer or bidirectional editable compatibility demonstrated.",
+    "Known source version does not prove all versions supported."
+  ],
+  "serializationInspection": {
+    "distribution": "REF/updateSite.zip",
+    "bundle": "plugins/com.tomato.exerd.model_3.3.56.20260820-1610.jar",
+    "class": "com/tomato/exerd/model/exerd/resource/ErdResourceImpl.class",
+    "classSha256": "53dede318a81a6e0bc5fa231c70f4955a8f3009bd0054e01ed02c48e01d16ea2",
+    "method": "javap -p -c; static bytecode inspection, not application execution",
+    "localTrace": ".analysis/planning/ErdResourceImpl.javap.txt",
+    "observations": [
+      {
+        "method": "skipHeader",
+        "traceLines": [
+          220,
+          248
+        ],
+        "finding": "Reads ERDFileHeader.zippedXmlContentLength and skips exactly that XML-entry region."
+      },
+      {
+        "method": "doLoad",
+        "traceLines": [
+          16,
+          104
+        ],
+        "finding": "After skipHeader, reads the following ZIP entry via custom ErdResourceImpl$EObjectInputStream.loadResource."
+      },
+      {
+        "method": "doSave",
+        "traceLines": [
+          106,
+          177
+        ],
+        "finding": "Writes header and zipped XML, then custom EObjectOutputStream.saveResource into binary-content."
+      }
+    ],
+    "binarySignatureHex": "89656d660a0d1a0a",
+    "publicEmfSource": "https://raw.githubusercontent.com/eclipse-emf/org.eclipse.emf/master/plugins/org.eclipse.emf.ecore/src/org/eclipse/emf/ecore/resource/impl/BinaryResourceImpl.java",
+    "limits": [
+      "Shared signature is not proof that custom eXERD binary codec is identical to stock EMF.",
+      "Original 3.3.52 executable behavior has not been inspected.",
+      "Runtime fallback behavior and edited-file reopening remain unverified."
+    ]
+  }
+}

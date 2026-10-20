@@ -1,0 +1,69 @@
+name: Verify and package
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    name: ${{ matrix.label }}
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - label: Linux x64
+            runner: ubuntu-24.04
+            platform: linux
+            arch: x64
+          - label: Windows x64
+            runner: windows-2022
+            platform: win
+            arch: x64
+          - label: macOS arm64
+            runner: macos-15
+            platform: mac
+            arch: arm64
+          - label: macOS x64
+            runner: macos-15-intel
+            platform: mac
+            arch: x64
+    runs-on: ${{ matrix.runner }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+      - run: npm ci
+      - run: npm test
+      - name: Install browser for end-to-end tests
+        run: npx playwright install --with-deps chromium
+      - name: Exercise browser editing, native file export and recovery
+        run: npm run test:e2e
+      - name: Check Electron entry point syntax
+        run: node --check app/desktop/main.cjs
+      - name: Allow Chromium user namespaces on the isolated Linux runner
+        if: runner.os == 'Linux'
+        run: sudo sysctl -w kernel.apparmor_restrict_unprivileged_userns=0
+      - name: Smoke-test the actual Electron renderer
+        if: runner.os == 'Linux'
+        run: xvfb-run --auto-servernum node app/scripts/desktop/smoke.mjs
+      - name: Package desktop application
+        run: npx electron-builder --config electron-builder.yml --${{ matrix.platform }} --${{ matrix.arch }} --publish never
+        env:
+          CSC_IDENTITY_AUTO_DISCOVERY: 'false'
+      - name: Upload installers and archives
+        uses: actions/upload-artifact@v4
+        with:
+          name: erd-maker-${{ matrix.platform }}-${{ matrix.arch }}
+          path: |
+            release/*.dmg
+            release/*.zip
+            release/*.exe
+            release/*.AppImage
+            release/*.tar.gz
+          if-no-files-found: error

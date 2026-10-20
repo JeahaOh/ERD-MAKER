@@ -1,0 +1,9 @@
+{
+  "schema": "ERD_TEST",
+  "expectedMajor": 19,
+  "cases": 6,
+  "assertions": 22,
+  "sourceManifestSha256": "143eec39c9749371518c1c6885444996cd37839bdddd186f9a1ba9d661b31eab",
+  "sqlSha256": "f6b058f01478f7cdcea7cfb6fc100850a6cb0ed620469a601ada9ed73ccfa50f",
+  "executedOnOracle19": false
+}

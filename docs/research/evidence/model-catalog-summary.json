@@ -1,0 +1,252 @@
+{
+  "schemaVersion": 1,
+  "version": "3.3.56",
+  "ecorePackages": 30,
+  "classes": 292,
+  "declaredFeatures": 1194,
+  "helpTopics": 252,
+  "registeredCommands": 107,
+  "unresolvedSuperTypes": [],
+  "sources": [
+    {
+      "namespaceURI": "http://exerd.com/wizardModel",
+      "source": ".analysis/ref/3.3.56/com.tomato.exerd.core_3.3.56.20260820-1610/com/tomato/exerd/diagramwizard/wizard-model.ecore",
+      "sha256": "b0f7dbcce7a858101dbaa36765c846dedd6b3f6c19b1fdd6d8bc697debe76b72",
+      "classes": 2,
+      "enums": 0,
+      "declaredFeatures": 3
+    },
+    {
+      "namespaceURI": "http://exerd.com/search",
+      "source": ".analysis/ref/3.3.56/com.tomato.exerd.core_3.3.56.20260820-1610/com/tomato/exerd/search2/model/ExerdSearch.ecore",
+      "sha256": "c473aa5593f1b991bf553f734a686cd16df6a7f40501c40df325c24d4b458b7c",
+      "classes": 21,
+      "enums": 2,
+      "declaredFeatures": 41
+    },
+    {
+      "namespaceURI": "http://exerd.com/diffModel",
+      "source": ".analysis/ref/3.3.56/com.tomato.exerd.diff_3.3.56.20260820-1610/com/tomato/exerd/diff/ExerdDiff.ecore",
+      "sha256": "907dc915e49938e7f7e8b1cf641bae79552ff24f8f54f6c1ac88bec339cc0a3e",
+      "classes": 4,
+      "enums": 1,
+      "declaredFeatures": 20
+    },
+    {
+      "namespaceURI": "http://exerd.tomato.com/common",
+      "source": ".analysis/ref/3.3.56/com.tomato.exerd.model.ui_3.3.56.20260820-1610/model/common.ecore",
+      "sha256": "5dbb7d7f329ac38f5ea6791e0b202b180a62c299083519c7ff18ff5e565dcdc7",
+      "classes": 4,
+      "enums": 0,
+      "declaredFeatures": 4
+    },
+    {
+      "namespaceURI": "http://exerd.tomato.com/ddl",
+      "source": ".analysis/ref/3.3.56/com.tomato.exerd.model.ui_3.3.56.20260820-1610/model/exerd_ddl.ecore",
+      "sha256": "f73eb81b1a71074ab9cd3f0b16b2d5d187aac9ed01a481e5f10df6e0cc5bd12d",
+      "classes": 1,
+      "enums": 0,
+      "declaredFeatures": 4
+    },
+    {
+      "namespaceURI": "http://exerd.tomato.com/model/product",
+      "source": ".analysis/ref/3.3.56/com.tomato.exerd.model.ui_3.3.56.20260820-1610/model/exerd_product.ecore",
+      "sha256": "fc6e8972c3f9fc8187dc2bd522e48e50d239cd073f45f1b5c0cd00c754603070",
+      "classes": 9,
+      "enums": 1,
+      "declaredFeatures": 20
+    },
+    {
+      "namespaceURI": "http://exerd.tomato.com/reverse",
+      "source": ".analysis/ref/3.3.56/com.tomato.exerd.model.ui_3.3.56.20260820-1610/model/exerd_reverse.ecore",
+      "sha256": "95b0da704b7332956091facff92727bad3b7288f4da18f8e10a35c8566c0c280",
+      "classes": 6,
+      "enums": 3,
+      "declaredFeatures": 25
+    },
+    {
+      "namespaceURI": "http://exerd.tomato.com/model",
+      "source": ".analysis/ref/3.3.56/com.tomato.exerd.model_3.3.56.20260820-1610/model/exerd.ecore",
+      "sha256": "bd5e29497842a66f25ea447d0311ae17445dd3e975b70966c9704da9a6f1f127",
+      "classes": 62,
+      "enums": 10,
+      "declaredFeatures": 151
+    },
+    {
+      "namespaceURI": "http://exerd.tomato.com/cubrid/model",
+      "source": ".analysis/ref/3.3.56/com.tomato.exerd.product.cubrid.model_3.3.56.20260820-1610/model/cubrid.ecore",
+      "sha256": "5b1d93d9c76f4604ad53275fc09c355538687f1a6fbbbecdeb384b83cf5ca7b3",
+      "classes": 13,
+      "enums": 9,
+      "declaredFeatures": 34
+    },
+    {
+      "namespaceURI": "http://exerd.tomato.com/cubrid/model/collationcharacterset",
+      "source": ".analysis/ref/3.3.56/com.tomato.exerd.product.cubrid_3.3.56.20260820-1610/model/collation_character_set.ecore",
+      "sha256": "368855bdf4befbac2928e60b285b3ae2f96134436eb020712a36498ac0e1d11d",
+      "classes": 3,
+      "enums": 0,
+      "declaredFeatures": 7
+    },
+    {
+      "namespaceURI": "http://exerd.tomato.com/cubrid/difference",
+      "source": ".analysis/ref/3.3.56/com.tomato.exerd.product.cubrid_3.3.56.20260820-1610/model/cubrid_difference.ecore",
+      "sha256": "a2e54d3fc1f8e5a111d57074a208ae206e403efde7c953f01920513afd6a6697",
+      "classes": 3,
+      "enums": 2,
+      "declaredFeatures": 13
+    },
+    {
+      "namespaceURI": "http://exerd.tomato.com/cubrid/forward",
+      "source": ".analysis/ref/3.3.56/com.tomato.exerd.product.cubrid_3.3.56.20260820-1610/model/cubrid_forward.ecore",
+      "sha256": "80444c7d561590996192ac187c0660b3ff21e1d46ba8d763853b6076eb801e38",
+      "classes": 3,
+      "enums": 2,
+      "declaredFeatures": 40
+    },
+    {
+      "namespaceURI": "http://exerd.tomato.com/db2/forward",
+      "source": ".analysis/ref/3.3.56/com.tomato.exerd.product.db2.forward_3.3.56.20260820-1610/model/db2_forward.ecore",
+      "sha256": "b0bf262a049b0b76c1bff1bd72f74fe0f490f69f80c8345154a2870fc32e45e9",
+      "classes": 3,
+      "enums": 2,
+      "declaredFeatures": 51
+    },
+    {
+      "namespaceURI": "http://exerd.tomato.com/db2/model",
+      "source": ".analysis/ref/3.3.56/com.tomato.exerd.product.db2.model_3.3.56.20260820-1610/model/db2.ecore",
+      "sha256": "e1987dedb14a2f6c342411117623beb0b957623a6f14e17fd9a86822d1ee42ba",
+      "classes": 6,
+      "enums": 3,
+      "declaredFeatures": 8
+    },
+    {
+      "namespaceURI": "http://exerd.tomato.com/mariadb/model",
+      "source": ".analysis/ref/3.3.56/com.tomato.exerd.product.mariadb_3.3.56.20260820-1610/model/mariadb.ecore",
+      "sha256": "8a62b747c9f1400fce0b4f2c57b27f8671367c863b482cd92128b765af4b67ef",
+      "classes": 12,
+      "enums": 6,
+      "declaredFeatures": 34
+    },
+    {
+      "namespaceURI": "http://exerd.tomato.com/mariadb/model/collationcharacterset",
+      "source": ".analysis/ref/3.3.56/com.tomato.exerd.product.mariadb_3.3.56.20260820-1610/model/mariadb_collationCharacterSet.ecore",
+      "sha256": "bb9b078a4f91f48196eac0c45a2db6ba2c0922860aff342da676bb207a4d6b99",
+      "classes": 3,
+      "enums": 0,
+      "declaredFeatures": 7
+    },
+    {
+      "namespaceURI": "http://exerd.tomato.com/mariadb/forward",
+      "source": ".analysis/ref/3.3.56/com.tomato.exerd.product.mariadb_3.3.56.20260820-1610/model/mariadb_forward.ecore",
+      "sha256": "60c81324a4c127beea9cf58cfdb822b5d3e36538e2f74b9d0679b9e6afa1be0b",
+      "classes": 3,
+      "enums": 2,
+      "declaredFeatures": 41
+    },
+    {
+      "namespaceURI": "http://exerd.tomato.com/mysql/model",
+      "source": ".analysis/ref/3.3.56/com.tomato.exerd.product.mysql.model_3.3.56.20260820-1610/model/mysql.ecore",
+      "sha256": "3d87a5248b035f60cc0d382f16da781c36ebaf36d0ac29983c043ab1a8a950d7",
+      "classes": 15,
+      "enums": 16,
+      "declaredFeatures": 76
+    },
+    {
+      "namespaceURI": "http://exerd.tomato.com/mysql/model/collationcharacterset",
+      "source": ".analysis/ref/3.3.56/com.tomato.exerd.product.mysql_3.3.56.20260820-1610/model/collation_character_set.ecore",
+      "sha256": "7937eae5341855028555ff488fbcc4338df758e636be83721221c43b798f213e",
+      "classes": 3,
+      "enums": 0,
+      "declaredFeatures": 7
+    },
+    {
+      "namespaceURI": "http://exerd.tomato.com/mysql/difference",
+      "source": ".analysis/ref/3.3.56/com.tomato.exerd.product.mysql_3.3.56.20260820-1610/model/mysql_difference.ecore",
+      "sha256": "c3df8637f0b80d4a3060aafc7cad0621098b92277d59caaccf14e4c87f1b1731",
+      "classes": 3,
+      "enums": 2,
+      "declaredFeatures": 13
+    },
+    {
+      "namespaceURI": "http://exerd.tomato.com/mysql/forward",
+      "source": ".analysis/ref/3.3.56/com.tomato.exerd.product.mysql_3.3.56.20260820-1610/model/mysql_forward.ecore",
+      "sha256": "fca512c4acc13de8ced6330cc6b81584cf3114795c67f4bdc2fa865d8bee271d",
+      "classes": 3,
+      "enums": 2,
+      "declaredFeatures": 48
+    },
+    {
+      "namespaceURI": "http://exerd.tomato.com/oracle10g",
+      "source": ".analysis/ref/3.3.56/com.tomato.exerd.product.oracle.model_3.3.56.20260820-1610/model/oracle10g.ecore",
+      "sha256": "996f26dda9ed9635df737290fa37d6a1762e03fbeb1946c08052abbc7070127c",
+      "classes": 23,
+      "enums": 12,
+      "declaredFeatures": 114
+    },
+    {
+      "namespaceURI": "http://exerd.tomato.com/oracle10g/forward",
+      "source": ".analysis/ref/3.3.56/com.tomato.exerd.product.oracle10g_3.3.56.20260820-1610/model/forward.ecore",
+      "sha256": "a801bf1ed307c93e082f1bc2c5c689fb188e9d146127d1de529ac7318ac9b18c",
+      "classes": 3,
+      "enums": 3,
+      "declaredFeatures": 49
+    },
+    {
+      "namespaceURI": "http://exerd.tomato.com/postgresql/model",
+      "source": ".analysis/ref/3.3.56/com.tomato.exerd.product.postgresql.model_3.3.56.20260820-1610/model/postgreSQL.ecore",
+      "sha256": "5e009718eab2b2d8ffd61647af942b7bf6350364dfab2052f5ded99845c7f523",
+      "classes": 22,
+      "enums": 11,
+      "declaredFeatures": 58
+    },
+    {
+      "namespaceURI": "http://exerd.tomato.com/postgresql/forward",
+      "source": ".analysis/ref/3.3.56/com.tomato.exerd.product.postgresql_3.3.56.20260820-1610/model/postgresql_forward.ecore",
+      "sha256": "44b92113da6314da8890e56ceb9269774f631c3c547bc537b7dc5091c6d92b56",
+      "classes": 3,
+      "enums": 3,
+      "declaredFeatures": 51
+    },
+    {
+      "namespaceURI": "http://exerd.tomato.com/sqlserver/forward",
+      "source": ".analysis/ref/3.3.56/com.tomato.exerd.product.sqlserver.forward_3.3.56.20260820-1610/model/sqlserver_forward.ecore",
+      "sha256": "f80e3dc668f0c6c0f974f24771600392a5b425c8e78ccc02ce045f1f510c6cdc",
+      "classes": 3,
+      "enums": 2,
+      "declaredFeatures": 52
+    },
+    {
+      "namespaceURI": "http://exerd.tomato.com/sqlserver/model",
+      "source": ".analysis/ref/3.3.56/com.tomato.exerd.product.sqlserver.model_3.3.56.20260820-1610/model/sqlserver.ecore",
+      "sha256": "521bb351da4356d29c79ffc769f9a66dc3cf01f491f8332e273829b431bd4d5e",
+      "classes": 33,
+      "enums": 18,
+      "declaredFeatures": 121
+    },
+    {
+      "namespaceURI": "http://exerd.tomato.com/tibero/model",
+      "source": ".analysis/ref/3.3.56/com.tomato.exerd.product.tibero_3.3.56.20260820-1610/model/tibero.ecore",
+      "sha256": "6c96abf4f0c913fe32061ff6099632e81d39080402f8be1c129ca489f7be9ea3",
+      "classes": 12,
+      "enums": 6,
+      "declaredFeatures": 34
+    },
+    {
+      "namespaceURI": "http://exerd.tomato.com/tibero/forward",
+      "source": ".analysis/ref/3.3.56/com.tomato.exerd.product.tibero_3.3.56.20260820-1610/model/tibero_forward.ecore",
+      "sha256": "4f733877accb902131b8a79bf1ba0cd569484de4a92732715ed1a4b030d0a605",
+      "classes": 3,
+      "enums": 2,
+      "declaredFeatures": 48
+    },
+    {
+      "namespaceURI": "http://exerd.com/term-model",
+      "source": ".analysis/ref/3.3.56/com.tomato.exerd.term.model_3.3.56.20260820-1610/model/termModel.ecore",
+      "sha256": "30fa34c74ce2098f182342b5545ed707bfefb03aa5b43ea023276f20f9096e2a",
+      "classes": 8,
+      "enums": 0,
+      "declaredFeatures": 20
+    }
+  ]
+}

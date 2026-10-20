@@ -1,0 +1,1587 @@
+{
+  "schemaVersion": 1,
+  "method": "Python zipfile metadata; selected resources; local-entry raw DEFLATE with CRC/size checks",
+  "files": [
+    {
+      "path": "REF/S2B_DA_D00_ERD_20260922_V1.0.exerd",
+      "bytes": 934577,
+      "sha256": "8726f30743915a8b6e3b1a34f1617667d38f06c93811d23aa5a2fea2681d117a",
+      "magicHex": "65584552442046696c65000000030000"
+    },
+    {
+      "path": "REF/eXERD_Installer_v3.3.56.20260820-1610_x64.exe",
+      "bytes": 412784128,
+      "sha256": "61fad0efec6125d333524d967c318cc9b94a566b0d06c9d25b1af3ddf7853a0a",
+      "magicHex": "4d5a90000300000004000000ffff0000"
+    },
+    {
+      "path": "REF/updateSite (1).zip",
+      "bytes": 123025418,
+      "sha256": "9262e03d7ca17b9c365164cd6f235a8751e78f1a1fd6bc7b7342f85d806d9156",
+      "version": "2.5.17",
+      "members": 44,
+      "bundles": [
+        {
+          "path": "artifacts.jar",
+          "sha256": "e6c4f7670240d4b5617cd303178ebb5338816839b9cc397968cea304fd6402d7",
+          "bytes": 5777,
+          "members": 5,
+          "classes": 0
+        },
+        {
+          "path": "content.jar",
+          "sha256": "f503621d75c4ea549a1623caf88b64182496ed69eaafeb4b5828a630625b9c20",
+          "bytes": 22875,
+          "members": 5,
+          "classes": 0
+        },
+        {
+          "path": "features/com.tomato.exerd.feature_2.5.17.20220110-1118.jar",
+          "sha256": "e980c112dfe7cde8421be6b2c4a97f793f2ca77470f048a749538943d0605b63",
+          "bytes": 9494,
+          "members": 7,
+          "classes": 0
+        },
+        {
+          "path": "plugins/com.tomato.devkit.ui_2.5.17.20220110-1118.jar",
+          "sha256": "8a92fb03efb87c214b3a81d7592264cdb9800bbc2e6127ad69cd5020da689c68",
+          "bytes": 7856,
+          "members": 14,
+          "classes": 5
+        },
+        {
+          "path": "plugins/com.tomato.devkit_2.5.17.20220110-1118.jar",
+          "sha256": "1fa9e9f259049ffc01cfee6f2202cac5c2f123586873f9aa8bb832abaf327bb4",
+          "bytes": 8708,
+          "members": 17,
+          "classes": 3
+        },
+        {
+          "path": "plugins/com.tomato.exerd.annotations_2.5.17.20220110-1118.jar",
+          "sha256": "516fbb767f2f1c6e65db83d5cd9a1947f3039ca0234d2ca2f2d2e2c9152d55d4",
+          "bytes": 122537,
+          "members": 56,
+          "classes": 27
+        },
+        {
+          "path": "plugins/com.tomato.exerd.connection_2.5.17.20220110-1118.jar",
+          "sha256": "9e3cad22ef50a27dd2a4b7a783fcea57e133150139bee77fcbc311581e75fcaa",
+          "bytes": 308739,
+          "members": 104,
+          "classes": 66
+        },
+        {
+          "path": "plugins/com.tomato.exerd.core_2.5.17.20220110-1118.jar",
+          "sha256": "b9d8de1d748a7b3c2d545a12788908c392fe3e29113e5629eb75ea57787f57b4",
+          "bytes": 9050249,
+          "members": 2768,
+          "classes": 2060
+        },
+        {
+          "path": "plugins/com.tomato.exerd.diff_2.5.17.20220110-1118.jar",
+          "sha256": "484b2a4296f8bab74d72895c7607906f3e79e3f8b8c09e4d1998ceabcad38588",
+          "bytes": 676240,
+          "members": 375,
+          "classes": 246
+        },
+        {
+          "path": "plugins/com.tomato.exerd.erwin_2.5.17.20220110-1118.jar",
+          "sha256": "57ec6978535fafa1905778449c227271e2fd54f04e3e4e2e5ee6e1b30461fa75",
+          "bytes": 2935937,
+          "members": 220,
+          "classes": 155
+        },
+        {
+          "path": "plugins/com.tomato.exerd.export.model_2.5.17.20220110-1118.jar",
+          "sha256": "c810ef3ac3f7da2e6091f719929dd7b9a130c6c2e6e1afae840c210f49490bec",
+          "bytes": 3400330,
+          "members": 70,
+          "classes": 19
+        },
+        {
+          "path": "plugins/com.tomato.exerd.forward_2.5.17.20220110-1118.jar",
+          "sha256": "4440def4ac5e138a70f492332f63558400718bbd1e572762a95e8d95bc3c19db",
+          "bytes": 62873,
+          "members": 60,
+          "classes": 41
+        },
+        {
+          "path": "plugins/com.tomato.exerd.gefviewers_2.5.17.20220110-1118.jar",
+          "sha256": "29c0e42e81469652799ec272df133f98b9ffea2b868b2217899104006ad91e1d",
+          "bytes": 77775,
+          "members": 73,
+          "classes": 50
+        },
+        {
+          "path": "plugins/com.tomato.exerd.help_2.5.17.20220110-1118.jar",
+          "sha256": "7257ef6f397fc0f1aac7497ea161c19349354baceea090e08dacf4117a90ce63",
+          "bytes": 57633775,
+          "members": 2234,
+          "classes": 1
+        },
+        {
+          "path": "plugins/com.tomato.exerd.intro_2.5.17.20220110-1118.jar",
+          "sha256": "ed05c73849382a93fc7d0eae6bfac4a2a741e6bcd380ade5a65f2d4e01c32cb5",
+          "bytes": 2451605,
+          "members": 86,
+          "classes": 4
+        },
+        {
+          "path": "plugins/com.tomato.exerd.library.ui_2.5.17.20220110-1118.jar",
+          "sha256": "ea2195b72a3b22bcf24393e5618f8885a7da882f9e9db6b757ab6d1390d9694f",
+          "bytes": 5328446,
+          "members": 471,
+          "classes": 365
+        },
+        {
+          "path": "plugins/com.tomato.exerd.library_2.5.17.20220110-1118.jar",
+          "sha256": "67f5b6cf520c52382f338e69ffe9ed607d65cc77acbf728f443adb657226366d",
+          "bytes": 21083190,
+          "members": 248,
+          "classes": 86
+        },
+        {
+          "path": "plugins/com.tomato.exerd.model.ui_2.5.17.20220110-1118.jar",
+          "sha256": "544f03b0085345255b67ca75837e97d3c9db2cd524bcbf077ec600c918be2286",
+          "bytes": 3804123,
+          "members": 624,
+          "classes": 176
+        },
+        {
+          "path": "plugins/com.tomato.exerd.model_2.5.17.20220110-1118.jar",
+          "sha256": "7569d8471ad8627dca467fa0896f37762c2cfb23b8d766d8a2a3058ab039b3c5",
+          "bytes": 3117831,
+          "members": 666,
+          "classes": 275
+        },
+        {
+          "path": "plugins/com.tomato.exerd.modelview_2.5.17.20220110-1118.jar",
+          "sha256": "77d2177f471c65a76a49e9b9a247719e67fa63e97914e981cee5d429a1d21d3a",
+          "bytes": 114028,
+          "members": 105,
+          "classes": 55
+        },
+        {
+          "path": "plugins/com.tomato.exerd.product.db2.core_2.5.17.20220110-1118.jar",
+          "sha256": "403d92fbdc169aafcb7e94f0445c48b9011e20c91cc10328ebfae2469012d91a",
+          "bytes": 102390,
+          "members": 68,
+          "classes": 33
+        },
+        {
+          "path": "plugins/com.tomato.exerd.product.db2.forward_2.5.17.20220110-1118.jar",
+          "sha256": "d2168b09b1bd4c6acc634fb45fd40f125bffe6e470741a5cb105dfc3946e7bcb",
+          "bytes": 444344,
+          "members": 217,
+          "classes": 128
+        },
+        {
+          "path": "plugins/com.tomato.exerd.product.db2.model_2.5.17.20220110-1118.jar",
+          "sha256": "aa643656302d551683a6a09553fc2a83ad9cbb1c0fe3796c1596d8d0d4eeb1df",
+          "bytes": 80335,
+          "members": 87,
+          "classes": 26
+        },
+        {
+          "path": "plugins/com.tomato.exerd.product.db2.propertypage_2.5.17.20220110-1118.jar",
+          "sha256": "27b01e4d78f0c4de68538da4e26e96fa790beacae8b80aada32281d130f58ab4",
+          "bytes": 237799,
+          "members": 167,
+          "classes": 115
+        },
+        {
+          "path": "plugins/com.tomato.exerd.product.mysql.model_2.5.17.20220110-1118.jar",
+          "sha256": "4aa3fa9c863265d54b77bd50ec3a75b35e809d44d8a305743ca90a9ebe001e91",
+          "bytes": 232639,
+          "members": 145,
+          "classes": 58
+        },
+        {
+          "path": "plugins/com.tomato.exerd.product.mysql_2.5.17.20220110-1118.jar",
+          "sha256": "58624ee5c2cd5239a9d602efa8c6a301837ddacc803df4087a848ea55b8f9bb9",
+          "bytes": 1160904,
+          "members": 639,
+          "classes": 452
+        },
+        {
+          "path": "plugins/com.tomato.exerd.product.oracle.model_2.5.17.20220110-1118.jar",
+          "sha256": "faecebd1e3ede7d1ede60fa9c532e4c006e5a4cd35f4ec223e3ccf3d079270df",
+          "bytes": 1020383,
+          "members": 260,
+          "classes": 87
+        },
+        {
+          "path": "plugins/com.tomato.exerd.product.oracle10g_2.5.17.20220110-1118.jar",
+          "sha256": "dc3360ac505cb946cf2545e87a1f6ea582366ae823a4c1a0c09011a5f2262f72",
+          "bytes": 1786929,
+          "members": 588,
+          "classes": 431
+        },
+        {
+          "path": "plugins/com.tomato.exerd.product.postgresql.model_2.5.17.20220110-1118.jar",
+          "sha256": "a51a698cb877bd611640ba3dbf601373bc1b90679737c0f40b4aeed89ac39888",
+          "bytes": 247875,
+          "members": 170,
+          "classes": 70
+        },
+        {
+          "path": "plugins/com.tomato.exerd.product.postgresql_2.5.17.20220110-1118.jar",
+          "sha256": "b3d4d8b0eb2b65596b2a131881faa86a5d51f59d15d98692e144b5a02861a27e",
+          "bytes": 1006500,
+          "members": 518,
+          "classes": 354
+        },
+        {
+          "path": "plugins/com.tomato.exerd.product.sqlserver.core_2.5.17.20220110-1118.jar",
+          "sha256": "e2066e308ab7485d0b17637ebb907b2e819a7ac37e1a3a64cd9830c8be5cea32",
+          "bytes": 1067732,
+          "members": 118,
+          "classes": 48
+        },
+        {
+          "path": "plugins/com.tomato.exerd.product.sqlserver.forward_2.5.17.20220110-1118.jar",
+          "sha256": "b24e1a7f1fcecf0ec8cc081163139b3d7760a3d3a7ec24d2a38e34427c4e7a94",
+          "bytes": 254216,
+          "members": 145,
+          "classes": 90
+        },
+        {
+          "path": "plugins/com.tomato.exerd.product.sqlserver.library_2.5.17.20220110-1118.jar",
+          "sha256": "6d3b817734639ce603a0c5decb7818c1d6a13a25712cf524b92d6ce701ffa664",
+          "bytes": 19820,
+          "members": 35,
+          "classes": 10
+        },
+        {
+          "path": "plugins/com.tomato.exerd.product.sqlserver.model_2.5.17.20220110-1118.jar",
+          "sha256": "c9ee6347b52c31d23167f6b977cedea347f1622f563af2d7f1f8353289aadf30",
+          "bytes": 446764,
+          "members": 247,
+          "classes": 104
+        },
+        {
+          "path": "plugins/com.tomato.exerd.product.sqlserver.propertypage_2.5.17.20220110-1118.jar",
+          "sha256": "4c33f71092efc8d3f3746b24acb32db8a6aa6e7f6f9f2ebd864763ba85dc8017",
+          "bytes": 800957,
+          "members": 317,
+          "classes": 240
+        },
+        {
+          "path": "plugins/com.tomato.exerd.product.sqlserver.validator_2.5.17.20220110-1118.jar",
+          "sha256": "2125dec780d930f8a22982253a83f1ca7c7abb0036cf29dd3e1cd76a0a822636",
+          "bytes": 20525,
+          "members": 26,
+          "classes": 7
+        },
+        {
+          "path": "plugins/com.tomato.exerd.product.tibero_2.5.17.20220110-1118.jar",
+          "sha256": "433dbab530b1bfd0dfe6e55f10c29b56817dc4a6be3f0a21212b9f8c55d5aa2f",
+          "bytes": 3150,
+          "members": 10,
+          "classes": 1
+        },
+        {
+          "path": "plugins/com.tomato.exerd.reverse_2.5.17.20220110-1118.jar",
+          "sha256": "1d14da55e47894ef918aa3633a58da7641a4e9b34e747b69236838e0edb1c42a",
+          "bytes": 129333,
+          "members": 111,
+          "classes": 72
+        },
+        {
+          "path": "plugins/com.tomato.exerd.term.model_2.5.17.20220110-1118.jar",
+          "sha256": "f50a018fed6c372a60f340326dbb5426e33f04372a474954e4d1f864add6a557",
+          "bytes": 111388,
+          "members": 103,
+          "classes": 63
+        },
+        {
+          "path": "plugins/com.tomato.exerd.term.ui_2.5.17.20220110-1118.jar",
+          "sha256": "b0da5412218af6cf055973eae40ff2049f645d479c0aaed0e8c822dd0f1bb792",
+          "bytes": 793312,
+          "members": 525,
+          "classes": 402
+        },
+        {
+          "path": "plugins/com.tomato.exerd.validator_2.5.17.20220110-1118.jar",
+          "sha256": "687f160036078f2a304219b0232dc0b4d949265a53377e58545be54de59e2831",
+          "bytes": 74289,
+          "members": 51,
+          "classes": 30
+        },
+        {
+          "path": "plugins/com.tomato.exerd.xscript_2.5.17.20220110-1118.jar",
+          "sha256": "7c297f3f1d34f8d5e2ca3b296f381126d1fe448e68f32ae51435ffa153ff7c03",
+          "bytes": 5013487,
+          "members": 909,
+          "classes": 516
+        }
+      ]
+    },
+    {
+      "path": "REF/updateSite.zip",
+      "bytes": 165814869,
+      "sha256": "daedb252b7e4644e7484dd9d1d22d93083c71fc61c63142c8b811d3a9906841d",
+      "version": "3.3.56",
+      "members": 56,
+      "bundles": [
+        {
+          "path": "artifacts.jar",
+          "sha256": "0b7801fd40da4ecab5be05b36014cf90f04f043e12927f67e4e96e3221adaceb",
+          "bytes": 15594,
+          "members": 5,
+          "classes": 0
+        },
+        {
+          "path": "content.jar",
+          "sha256": "e4289773b0484084859254ca6a5f97b09627805899fb434aa12bde2bde70f784",
+          "bytes": 35007,
+          "members": 5,
+          "classes": 0
+        },
+        {
+          "path": "features/com.tomato.exerd.feature_3.3.56.20260820-1610.jar",
+          "sha256": "0ba27dbb7cde8d5a03a6a54253f87ff81af47557c18a45ef0489ed58bebdb0a3",
+          "bytes": 18240,
+          "members": 7,
+          "classes": 0
+        },
+        {
+          "path": "plugins/com.google.guava_15.0.0.v201403281430.jar",
+          "sha256": "676f666718b8100eb3e6f7b12ab89ebba0b3ee2a319fe8bdede15844d71ec78b",
+          "bytes": 2263565,
+          "members": 1659,
+          "classes": 1622
+        },
+        {
+          "path": "plugins/com.google.inject_3.0.0.v201312141243.jar",
+          "sha256": "eacf5f83bcd490945bac05c6de45c33aabec1584b13eeaac0c0e626f4a228c4b",
+          "bytes": 521092,
+          "members": 431,
+          "classes": 410
+        },
+        {
+          "path": "plugins/com.tomato.devkit.ui_3.3.56.20260820-1610.jar",
+          "sha256": "52bd50c855a0cd8fa921f88b768979a0f31be177eea3c78126c54b96463a33e4",
+          "bytes": 16638,
+          "members": 14,
+          "classes": 5
+        },
+        {
+          "path": "plugins/com.tomato.devkit_3.3.56.20260820-1610.jar",
+          "sha256": "90a2a7f9db7f973b49328f26aef4102efd6f6e345f98c41ed36399bec57ad693",
+          "bytes": 14655,
+          "members": 10,
+          "classes": 3
+        },
+        {
+          "path": "plugins/com.tomato.exerd.annotations_3.3.56.20260820-1610.jar",
+          "sha256": "1455929b79d81e466eed977c016617ad87eed9920ae26ead9421dcbcf89905be",
+          "bytes": 122070,
+          "members": 48,
+          "classes": 19
+        },
+        {
+          "path": "plugins/com.tomato.exerd.connection_3.3.56.20260820-1610.jar",
+          "sha256": "4214ccbe6a942e53ea0281aeab923bd2262ce418281fa7b6f60e6465df9877ef",
+          "bytes": 391329,
+          "members": 120,
+          "classes": 67
+        },
+        {
+          "path": "plugins/com.tomato.exerd.core_3.3.56.20260820-1610.jar",
+          "sha256": "a30635877827f777e4a39a57062bced787134c15a1e1031fec85cf9234896d87",
+          "bytes": 9883674,
+          "members": 2838,
+          "classes": 2030
+        },
+        {
+          "path": "plugins/com.tomato.exerd.diff_3.3.56.20260820-1610.jar",
+          "sha256": "45a708a4a3b0d679564bbc4ccdf2cb2dc241ab51f35e87c3f0672e9ed28bd3b5",
+          "bytes": 578474,
+          "members": 281,
+          "classes": 155
+        },
+        {
+          "path": "plugins/com.tomato.exerd.erwin_3.3.56.20260820-1610.jar",
+          "sha256": "7e37be0f5823e525eb3eb47927216ac3f990a9cd163d7b3ae03640989d4a2eae",
+          "bytes": 2812465,
+          "members": 100,
+          "classes": 35
+        },
+        {
+          "path": "plugins/com.tomato.exerd.export.model_3.3.56.20260820-1610.jar",
+          "sha256": "7a2312a1825552ff10e1c00503330e00bcbfb72cd75c5418ac6c4de8c3aadb6c",
+          "bytes": 3412529,
+          "members": 70,
+          "classes": 19
+        },
+        {
+          "path": "plugins/com.tomato.exerd.forward_3.3.56.20260820-1610.jar",
+          "sha256": "ee115d2edb1431a4843ea339576455684d9f0012aab38e787f3e39d05110dd3a",
+          "bytes": 78575,
+          "members": 67,
+          "classes": 42
+        },
+        {
+          "path": "plugins/com.tomato.exerd.gefviewers_3.3.56.20260820-1610.jar",
+          "sha256": "170bcb18a2e4ecb501932046140267e41d7a958fdead87a15ad5efdc9cbdb452",
+          "bytes": 88253,
+          "members": 73,
+          "classes": 50
+        },
+        {
+          "path": "plugins/com.tomato.exerd.help_3.3.56.20260820-1610.jar",
+          "sha256": "8be622b8c806939b8894efcfecf6f19bf822aafd0fcca687dee75aae1a049a7d",
+          "bytes": 86455907,
+          "members": 2583,
+          "classes": 1
+        },
+        {
+          "path": "plugins/com.tomato.exerd.intro_3.3.56.20260820-1610.jar",
+          "sha256": "4a45402c1fc3c8b752be7a18695a1dc852897770ed2b9519b265398939670141",
+          "bytes": 2461158,
+          "members": 86,
+          "classes": 4
+        },
+        {
+          "path": "plugins/com.tomato.exerd.library.ui_3.3.56.20260820-1610.jar",
+          "sha256": "2e3498f1e525aff6f698ce501b284d149264be5eb9ceb6d647916dd1865135e8",
+          "bytes": 5347864,
+          "members": 471,
+          "classes": 365
+        },
+        {
+          "path": "plugins/com.tomato.exerd.library_3.3.56.20260820-1610.jar",
+          "sha256": "d4fcf801487e5c107f7d1d7d1ad9bcf3603d0c348436e6f4ff126046d6876c54",
+          "bytes": 25866709,
+          "members": 150,
+          "classes": 88
+        },
+        {
+          "path": "plugins/com.tomato.exerd.model.ui_3.3.56.20260820-1610.jar",
+          "sha256": "5429c6115722de9287288aa722157f850b7c67572c3e2e4d39b3834a2488ae72",
+          "bytes": 3860832,
+          "members": 634,
+          "classes": 171
+        },
+        {
+          "path": "plugins/com.tomato.exerd.model_3.3.56.20260820-1610.jar",
+          "sha256": "cd104367d39391ec1ae7b56adb30d7251dc2bc97f9bc783cad5dd24ee437390a",
+          "bytes": 2785178,
+          "members": 402,
+          "classes": 274
+        },
+        {
+          "path": "plugins/com.tomato.exerd.modelview_3.3.56.20260820-1610.jar",
+          "sha256": "df26dd3765d14199dc69157d77726718e20b589106362144752f32db2d92440e",
+          "bytes": 180501,
+          "members": 114,
+          "classes": 55
+        },
+        {
+          "path": "plugins/com.tomato.exerd.product.cubrid.model_3.3.56.20260820-1610.jar",
+          "sha256": "fb3ed021faadc97c8479123cd498ea73eb6fc47ce6c444a83ff0892544c00b1e",
+          "bytes": 104919,
+          "members": 71,
+          "classes": 54
+        },
+        {
+          "path": "plugins/com.tomato.exerd.product.cubrid_3.3.56.20260820-1610.jar",
+          "sha256": "7295ba359737500c1b09222870a24455429a6bbb3fb94bda8eb3424256cb4d4b",
+          "bytes": 1309851,
+          "members": 581,
+          "classes": 387
+        },
+        {
+          "path": "plugins/com.tomato.exerd.product.db2.core_3.3.56.20260820-1610.jar",
+          "sha256": "25c356105d59a135ec44ad651ad33b45e2f04a2c95932a48727f403a1aada981",
+          "bytes": 161390,
+          "members": 88,
+          "classes": 51
+        },
+        {
+          "path": "plugins/com.tomato.exerd.product.db2.forward_3.3.56.20260820-1610.jar",
+          "sha256": "58c6326d6fa3fbf2e2b0111524b554a515ed0cadaa5a43de5495aa5fdcfba1b7",
+          "bytes": 416385,
+          "members": 178,
+          "classes": 88
+        },
+        {
+          "path": "plugins/com.tomato.exerd.product.db2.model_3.3.56.20260820-1610.jar",
+          "sha256": "2383acec8e88f6e304f30c363fb7a65528003f32474eea42f6532de9e33f9441",
+          "bytes": 55967,
+          "members": 54,
+          "classes": 26
+        },
+        {
+          "path": "plugins/com.tomato.exerd.product.db2.propertypage_3.3.56.20260820-1610.jar",
+          "sha256": "22cd0d3720117cd844aafcc9d6156111d32ba5640d8909d3351365a60af2d532",
+          "bytes": 222635,
+          "members": 151,
+          "classes": 99
+        },
+        {
+          "path": "plugins/com.tomato.exerd.product.mariadb_3.3.56.20260820-1610.jar",
+          "sha256": "a085fa34aac3955979e41e4f9c08b34530ae5773f4c5b2b6346abe8676979a8c",
+          "bytes": 1016774,
+          "members": 502,
+          "classes": 336
+        },
+        {
+          "path": "plugins/com.tomato.exerd.product.mysql.model_3.3.56.20260820-1610.jar",
+          "sha256": "cbd46b0668cbd198a9cc2805293eaa980114d0a01a71655a3f1a5481c5910ab9",
+          "bytes": 140819,
+          "members": 79,
+          "classes": 58
+        },
+        {
+          "path": "plugins/com.tomato.exerd.product.mysql_3.3.56.20260820-1610.jar",
+          "sha256": "4e34d778c4498a527201b58a002a60e3a8c433edd752a2ee9dd101b55411223c",
+          "bytes": 1137887,
+          "members": 553,
+          "classes": 396
+        },
+        {
+          "path": "plugins/com.tomato.exerd.product.oracle.model_3.3.56.20260820-1610.jar",
+          "sha256": "c2b8842168cacfeb2fb39a87f30b024d4d2b0bf505a8f35ac7ee7265ae8f407c",
+          "bytes": 870140,
+          "members": 158,
+          "classes": 87
+        },
+        {
+          "path": "plugins/com.tomato.exerd.product.oracle10g_3.3.56.20260820-1610.jar",
+          "sha256": "db170169c74ee69b3ac4dcdc82a91b9956ef87bf627c0bd34aea4735ad9581ee",
+          "bytes": 2549846,
+          "members": 621,
+          "classes": 308
+        },
+        {
+          "path": "plugins/com.tomato.exerd.product.postgresql.model_3.3.56.20260820-1610.jar",
+          "sha256": "918088f0d9cef21ed3c102c88ccde04020f382452bb9872ec36f7b8f9968a7b2",
+          "bytes": 150305,
+          "members": 92,
+          "classes": 70
+        },
+        {
+          "path": "plugins/com.tomato.exerd.product.postgresql_3.3.56.20260820-1610.jar",
+          "sha256": "181eb50505b357f54ea4bc238c4dc4b8fc75e2c6450a11359fd84cae617ec4fe",
+          "bytes": 1136418,
+          "members": 451,
+          "classes": 289
+        },
+        {
+          "path": "plugins/com.tomato.exerd.product.sqlserver.core_3.3.56.20260820-1610.jar",
+          "sha256": "c210222893c64d9a4759ae96956e1e089b71506bf96023fa3898622ba2f39e91",
+          "bytes": 1087296,
+          "members": 132,
+          "classes": 66
+        },
+        {
+          "path": "plugins/com.tomato.exerd.product.sqlserver.forward_3.3.56.20260820-1610.jar",
+          "sha256": "152c3dc287bf40300ae7679e82cccaa04d13cd661cf887868d3f7f30f4b6b175",
+          "bytes": 635236,
+          "members": 191,
+          "classes": 91
+        },
+        {
+          "path": "plugins/com.tomato.exerd.product.sqlserver.library_3.3.56.20260820-1610.jar",
+          "sha256": "53a5b342f5ab2c92850286f0485aa7ee13650a030b881e1c91fe577180790f04",
+          "bytes": 26466,
+          "members": 31,
+          "classes": 9
+        },
+        {
+          "path": "plugins/com.tomato.exerd.product.sqlserver.model_3.3.56.20260820-1610.jar",
+          "sha256": "dcdf0b5417d49e9a9e2d2b36866e6a82cc95bd821cc0d268994373665f14dba1",
+          "bytes": 285988,
+          "members": 137,
+          "classes": 108
+        },
+        {
+          "path": "plugins/com.tomato.exerd.product.sqlserver.propertypage_3.3.56.20260820-1610.jar",
+          "sha256": "8c1f4e5c363fd242aec348ad87ea54dd35bcadf9329d4ea4c20abde0dbbea28d",
+          "bytes": 987730,
+          "members": 366,
+          "classes": 228
+        },
+        {
+          "path": "plugins/com.tomato.exerd.product.sqlserver.validator_3.3.56.20260820-1610.jar",
+          "sha256": "b4169bd874ddde04dec9dfdcc372580095d01dfe8a09a1c4f1ab5aef1cdf4662",
+          "bytes": 25905,
+          "members": 22,
+          "classes": 6
+        },
+        {
+          "path": "plugins/com.tomato.exerd.product.tibero_3.3.56.20260820-1610.jar",
+          "sha256": "fc44921478b11de473476c8f2b599392e838d2fe49d1158e8c25fd186710cbcd",
+          "bytes": 677214,
+          "members": 345,
+          "classes": 202
+        },
+        {
+          "path": "plugins/com.tomato.exerd.reverse_3.3.56.20260820-1610.jar",
+          "sha256": "ddb67a1dd468b075adfd9cc5029b7df1a9d4a417eb76bbce38005c98f6d7b93a",
+          "bytes": 182962,
+          "members": 126,
+          "classes": 74
+        },
+        {
+          "path": "plugins/com.tomato.exerd.term.model_3.3.56.20260820-1610.jar",
+          "sha256": "3707016f834dbae5751e56c357190ed4a919ffe1e6cd8016979845abca39ac7d",
+          "bytes": 140361,
+          "members": 111,
+          "classes": 71
+        },
+        {
+          "path": "plugins/com.tomato.exerd.term.ui_3.3.56.20260820-1610.jar",
+          "sha256": "c0e45f48075c9cf138be6e8a53bea706c0386266ac30f483576de7bd7dbf70ef",
+          "bytes": 785280,
+          "members": 469,
+          "classes": 336
+        },
+        {
+          "path": "plugins/com.tomato.exerd.validator_3.3.56.20260820-1610.jar",
+          "sha256": "edd870f5279e5f9c968589a0d8eeb7fe5d580b6518eb9e39660daaf3638469f9",
+          "bytes": 98088,
+          "members": 54,
+          "classes": 30
+        },
+        {
+          "path": "plugins/com.tomato.exerd.xscript_3.3.56.20260820-1610.jar",
+          "sha256": "aa70ccdeadd1729a0a4e8c3f30311220304729e239b388c166aa7179171e3234",
+          "bytes": 4963061,
+          "members": 825,
+          "classes": 417
+        },
+        {
+          "path": "plugins/kr.co.tomatosystem.draw2d_1.0.5551.test-20250321-1505.jar",
+          "sha256": "f94ade2d4ad562d3f097d7ce7a2ac9c938aa0e77646a29958f207e87eebe80ca",
+          "bytes": 651423,
+          "members": 400,
+          "classes": 368
+        },
+        {
+          "path": "plugins/kr.co.tomatosystem.gef_1.0.5551.test-20250321-1505.jar",
+          "sha256": "d7c61fda98eb90170d9a42a54d753bce4eadc8e23df923e4c6e14641119f13fd",
+          "bytes": 1041462,
+          "members": 703,
+          "classes": 554
+        },
+        {
+          "path": "plugins/org.eclipse.core.databinding.beans_1.3.0.v20150422-0725.jar",
+          "sha256": "2e6a569fb196eed568b46ee58a5245eb41130d246bd2f974709bb78e48c9923e",
+          "bytes": 79096,
+          "members": 62,
+          "classes": 47
+        },
+        {
+          "path": "plugins/org.eclipse.jface.databinding_1.7.0.v20150406-2148.jar",
+          "sha256": "dbb952128de68c60a5fcba631f80abed6b33b849f105f536bbc1249ce55dae5b",
+          "bytes": 281453,
+          "members": 271,
+          "classes": 245
+        },
+        {
+          "path": "plugins/org.eclipse.xtend.lib.macro_2.11.0.v20170124-1424.jar",
+          "sha256": "2b02c11872d9b6580e5d1f168e2a2b20099401ec5ce221987acca138f3d69dcb",
+          "bytes": 74234,
+          "members": 102,
+          "classes": 88
+        },
+        {
+          "path": "plugins/org.eclipse.xtend.lib_2.11.0.v20170124-1424.jar",
+          "sha256": "59a65d4295d94bd4c9cf592458df93ec5aac16ab4bc47d91b41c56c72514a028",
+          "bytes": 164854,
+          "members": 127,
+          "classes": 117
+        },
+        {
+          "path": "plugins/org.eclipse.xtext.xbase.lib_2.11.0.v20170124-1424.jar",
+          "sha256": "b007fc3c19cf51552e556d834e9399f7d601d0eef47bf5518986c72f463f8b42",
+          "bytes": 151500,
+          "members": 127,
+          "classes": 113
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "archive": "REF/updateSite (1).zip",
+      "bundle": "plugins/com.tomato.exerd.intro_2.5.17.20220110-1118.jar",
+      "container": "examples/pos.zip",
+      "member": "pos.exerd",
+      "bytes": 9436,
+      "sha256": "5cf62c04f7172f160785c545f81ffa758030b499874dd981b9ae3f20744ae868",
+      "extractedPath": ".analysis/ref/2.5.17/com.tomato.exerd.intro_2.5.17.20220110-1118/examples/pos/pos.exerd",
+      "entries": [
+        {
+          "name": "xml-content.xml",
+          "bytes": 37019,
+          "sha256": "3ae7c7790435c0533ee998256d125bfb88945e62d2a2495f8f0171ee8f325ecc",
+          "start": 43,
+          "end": 4409,
+          "extractedPath": ".analysis/ref/2.5.17/com.tomato.exerd.intro_2.5.17.20220110-1118/examples/pos/pos.exerd.xml-content.xml",
+          "rootTag": "{http://exerd.tomato.com/model}Document",
+          "rootAttributes": {
+            "{http://www.omg.org/XMI}version": "2.0",
+            "UUID": "Document_sEObIBtuEeODyZnBgmOXlg",
+            "activeBusinessArea": "BArea_EnVp4PMcEeqFHPfESMjyMw",
+            "activeSchema": "Schema_sEQ3YRtuEeODyZnBgmOXlg",
+            "version": "2.5.10.qualifier",
+            "productId": "com.tomato.db.oracle_10g",
+            "openedDiagrams": "Diagram_Env5kPMcEeqFHPfESMjyMw"
+          },
+          "tables": 9,
+          "columns": 42,
+          "foreignKeyGroups": 8
+        },
+        {
+          "name": "binary-content",
+          "bytes": 17587,
+          "sha256": "fbcc556201cc0c3e575d4328dceab7e2aac5b0c8aa8c5291009b2dd38b922906",
+          "start": 4409,
+          "end": 9436,
+          "extractedPath": ".analysis/ref/2.5.17/com.tomato.exerd.intro_2.5.17.20220110-1118/examples/pos/pos.exerd.binary-content"
+        }
+      ]
+    },
+    {
+      "archive": "REF/updateSite (1).zip",
+      "bundle": "plugins/com.tomato.exerd.intro_2.5.17.20220110-1118.jar",
+      "container": "examples/pos.zip",
+      "member": "pos.xdic",
+      "bytes": 4386,
+      "sha256": "9de3b7129606b4672fb4e2ddf675ea674d6667726e8caafd0e3a88e502ba5c7c",
+      "extractedPath": ".analysis/ref/2.5.17/com.tomato.exerd.intro_2.5.17.20220110-1118/examples/pos/pos.xdic",
+      "entries": [
+        {
+          "name": "xml-content.xml",
+          "bytes": 4386,
+          "sha256": "9de3b7129606b4672fb4e2ddf675ea674d6667726e8caafd0e3a88e502ba5c7c",
+          "start": 0,
+          "end": 4386,
+          "extractedPath": ".analysis/ref/2.5.17/com.tomato.exerd.intro_2.5.17.20220110-1118/examples/pos/pos.xdic.xml-content.xml",
+          "rootTag": "{http://exerd.com/term-model}TermDictionary",
+          "rootAttributes": {
+            "version": "1.1"
+          },
+          "tables": 0,
+          "columns": 0,
+          "foreignKeyGroups": 0
+        }
+      ]
+    },
+    {
+      "archive": "REF/updateSite (1).zip",
+      "bundle": "plugins/com.tomato.exerd.intro_2.5.17.20220110-1118.jar",
+      "container": "examples/public.zip",
+      "member": "public.xdic",
+      "bytes": 3916875,
+      "sha256": "9a47807b5c91ca7e6b79c38c416732946fe60bb655c4b68b128fad7482016d8e",
+      "extractedPath": ".analysis/ref/2.5.17/com.tomato.exerd.intro_2.5.17.20220110-1118/examples/public/public.xdic",
+      "entries": [
+        {
+          "name": "xml-content.xml",
+          "bytes": 3916875,
+          "sha256": "9a47807b5c91ca7e6b79c38c416732946fe60bb655c4b68b128fad7482016d8e",
+          "start": 0,
+          "end": 3916875,
+          "extractedPath": ".analysis/ref/2.5.17/com.tomato.exerd.intro_2.5.17.20220110-1118/examples/public/public.xdic.xml-content.xml",
+          "rootTag": "{http://exerd.com/term-model}TermDictionary",
+          "rootAttributes": {},
+          "tables": 0,
+          "columns": 0,
+          "foreignKeyGroups": 0
+        }
+      ]
+    },
+    {
+      "archive": "REF/updateSite (1).zip",
+      "bundle": "plugins/com.tomato.exerd.intro_2.5.17.20220110-1118.jar",
+      "container": "examples/study.zip",
+      "member": "study.exerd",
+      "bytes": 11074,
+      "sha256": "defff41e15337cc8e23b75b275ec3da0b11f5eeb81e433e6fce4120548d0a50f",
+      "extractedPath": ".analysis/ref/2.5.17/com.tomato.exerd.intro_2.5.17.20220110-1118/examples/study/study.exerd",
+      "entries": [
+        {
+          "name": "xml-content.xml",
+          "bytes": 52402,
+          "sha256": "5a325ed37938e5da162c60a41f64cddabeb289b3ecd0cc87a0ddc3b38d89b6ee",
+          "start": 47,
+          "end": 5295,
+          "extractedPath": ".analysis/ref/2.5.17/com.tomato.exerd.intro_2.5.17.20220110-1118/examples/study/study.exerd.xml-content.xml",
+          "rootTag": "{http://exerd.tomato.com/model}Document",
+          "rootAttributes": {
+            "{http://www.omg.org/XMI}version": "2.0",
+            "UUID": "Document_e4XeYCybEeKiMpFrVcqncw",
+            "activeSchema": "Schema_e4dlASybEeKiMpFrVcqncw",
+            "version": "2.3.0.20131007-1529",
+            "product": "com.tomato.db.oracle_10g"
+          },
+          "tables": 14,
+          "columns": 41,
+          "foreignKeyGroups": 16
+        },
+        {
+          "name": "binary-content",
+          "bytes": 16791,
+          "sha256": "995b143fe9b26baca24d9d448f75693714db9e9d13c0debce52a95a451acb94f",
+          "start": 5295,
+          "end": 11074,
+          "extractedPath": ".analysis/ref/2.5.17/com.tomato.exerd.intro_2.5.17.20220110-1118/examples/study/study.exerd.binary-content"
+        }
+      ]
+    },
+    {
+      "archive": "REF/updateSite (1).zip",
+      "bundle": "plugins/com.tomato.exerd.intro_2.5.17.20220110-1118.jar",
+      "container": "examples/study.zip",
+      "member": "study.xdic",
+      "bytes": 6048,
+      "sha256": "7eeedb129db8fd26a4d5584797fdaa59363503460bd545ae3adf9be6e901df6f",
+      "extractedPath": ".analysis/ref/2.5.17/com.tomato.exerd.intro_2.5.17.20220110-1118/examples/study/study.xdic",
+      "entries": [
+        {
+          "name": "xml-content.xml",
+          "bytes": 6048,
+          "sha256": "7eeedb129db8fd26a4d5584797fdaa59363503460bd545ae3adf9be6e901df6f",
+          "start": 0,
+          "end": 6048,
+          "extractedPath": ".analysis/ref/2.5.17/com.tomato.exerd.intro_2.5.17.20220110-1118/examples/study/study.xdic.xml-content.xml",
+          "rootTag": "{http://exerd.com/term-model}TermDictionary",
+          "rootAttributes": {
+            "version": "1.1"
+          },
+          "tables": 0,
+          "columns": 0,
+          "foreignKeyGroups": 0
+        }
+      ]
+    },
+    {
+      "archive": "REF/updateSite (1).zip",
+      "bundle": "plugins/com.tomato.exerd.intro_2.5.17.20220110-1118.jar",
+      "container": "nl/ja/examples/pos.zip",
+      "member": "pos.exerd",
+      "bytes": 9637,
+      "sha256": "63264189bdf5ab5a17a30191037a5390213abe760761f7daea5a6736db5b8449",
+      "extractedPath": ".analysis/ref/2.5.17/com.tomato.exerd.intro_2.5.17.20220110-1118/nl/ja/examples/pos/pos.exerd",
+      "entries": [
+        {
+          "name": "xml-content.xml",
+          "bytes": 36757,
+          "sha256": "9bdfb902f3bcd7a5a6a27f5014d68a760b999a5f6184e80d047bc0e3aff65371",
+          "start": 43,
+          "end": 4569,
+          "extractedPath": ".analysis/ref/2.5.17/com.tomato.exerd.intro_2.5.17.20220110-1118/nl/ja/examples/pos/pos.exerd.xml-content.xml",
+          "rootTag": "{http://exerd.tomato.com/model}Document",
+          "rootAttributes": {
+            "{http://www.omg.org/XMI}version": "2.0",
+            "UUID": "Document_1rH4AL7BEeOiWd4DbZjxtg",
+            "activeBusinessArea": "BArea_m2u18PMdEeqHZaMRrsdCFw",
+            "activeSchema": "Schema_1rH4IL7BEeOiWd4DbZjxtg",
+            "version": "2.5.10.qualifier",
+            "productId": "com.tomato.db.oracle_10g",
+            "openedDiagrams": "Diagram_m3x-0PMdEeqHZaMRrsdCFw"
+          },
+          "tables": 9,
+          "columns": 42,
+          "foreignKeyGroups": 8
+        },
+        {
+          "name": "binary-content",
+          "bytes": 17227,
+          "sha256": "a3c06682f196ce659a5e1cb56ec447fda361a90f94939a4fc212335d8604e8d4",
+          "start": 4569,
+          "end": 9637,
+          "extractedPath": ".analysis/ref/2.5.17/com.tomato.exerd.intro_2.5.17.20220110-1118/nl/ja/examples/pos/pos.exerd.binary-content"
+        }
+      ]
+    },
+    {
+      "archive": "REF/updateSite (1).zip",
+      "bundle": "plugins/com.tomato.exerd.intro_2.5.17.20220110-1118.jar",
+      "container": "nl/ja/examples/pos.zip",
+      "member": "pos.xdic",
+      "bytes": 2241,
+      "sha256": "c16298118395a2a76be9436c25a51acce16a63d85430a3bfb9041d904e29b768",
+      "extractedPath": ".analysis/ref/2.5.17/com.tomato.exerd.intro_2.5.17.20220110-1118/nl/ja/examples/pos/pos.xdic",
+      "entries": [
+        {
+          "name": "xml-content.xml",
+          "bytes": 2241,
+          "sha256": "c16298118395a2a76be9436c25a51acce16a63d85430a3bfb9041d904e29b768",
+          "start": 0,
+          "end": 2241,
+          "extractedPath": ".analysis/ref/2.5.17/com.tomato.exerd.intro_2.5.17.20220110-1118/nl/ja/examples/pos/pos.xdic.xml-content.xml",
+          "rootTag": "{http://exerd.com/term-model}TermDictionary",
+          "rootAttributes": {
+            "version": "1.1"
+          },
+          "tables": 0,
+          "columns": 0,
+          "foreignKeyGroups": 0
+        }
+      ]
+    },
+    {
+      "archive": "REF/updateSite (1).zip",
+      "bundle": "plugins/com.tomato.exerd.intro_2.5.17.20220110-1118.jar",
+      "container": "nl/ja/examples/study.zip",
+      "member": "study.exerd",
+      "bytes": 13400,
+      "sha256": "2bd56c49f6973fbda4d83b6d8ff35b10a81f7a1bbdfc0dc7831a4b4ed4e8f8ed",
+      "extractedPath": ".analysis/ref/2.5.17/com.tomato.exerd.intro_2.5.17.20220110-1118/nl/ja/examples/study/study.exerd",
+      "entries": [
+        {
+          "name": "xml-content.xml",
+          "bytes": 59983,
+          "sha256": "65f384b76e2150482b268b676d2b1a56150013f0769491d615f2716750e2d5a7",
+          "start": 47,
+          "end": 6600,
+          "extractedPath": ".analysis/ref/2.5.17/com.tomato.exerd.intro_2.5.17.20220110-1118/nl/ja/examples/study/study.exerd.xml-content.xml",
+          "rootTag": "{http://exerd.tomato.com/model}Document",
+          "rootAttributes": {
+            "{http://www.omg.org/XMI}version": "2.0",
+            "UUID": "Document_e4XeYCybEeKiMpFrVcqncw",
+            "activeSchema": "Schema_e4dlASybEeKiMpFrVcqncw",
+            "version": "2.3.2.20140411-1731",
+            "product": "com.tomato.db.oracle_10g"
+          },
+          "tables": 14,
+          "columns": 41,
+          "foreignKeyGroups": 16
+        },
+        {
+          "name": "binary-content",
+          "bytes": 22766,
+          "sha256": "1e2dd919e3604d1e226c988319a07808796f8ae0d3f98cef7d14000b9a3dd9e7",
+          "start": 6600,
+          "end": 13400,
+          "extractedPath": ".analysis/ref/2.5.17/com.tomato.exerd.intro_2.5.17.20220110-1118/nl/ja/examples/study/study.exerd.binary-content"
+        }
+      ]
+    },
+    {
+      "archive": "REF/updateSite (1).zip",
+      "bundle": "plugins/com.tomato.exerd.intro_2.5.17.20220110-1118.jar",
+      "container": "nl/ja/examples/study.zip",
+      "member": "study.xdic",
+      "bytes": 2659,
+      "sha256": "eeda74ac971665108f6122ff6c5208d7ecf56fa5a49a34e945ee19feb75f75e4",
+      "extractedPath": ".analysis/ref/2.5.17/com.tomato.exerd.intro_2.5.17.20220110-1118/nl/ja/examples/study/study.xdic",
+      "entries": [
+        {
+          "name": "xml-content.xml",
+          "bytes": 2659,
+          "sha256": "eeda74ac971665108f6122ff6c5208d7ecf56fa5a49a34e945ee19feb75f75e4",
+          "start": 0,
+          "end": 2659,
+          "extractedPath": ".analysis/ref/2.5.17/com.tomato.exerd.intro_2.5.17.20220110-1118/nl/ja/examples/study/study.xdic.xml-content.xml",
+          "rootTag": "{http://exerd.com/term-model}TermDictionary",
+          "rootAttributes": {
+            "version": "1.1"
+          },
+          "tables": 0,
+          "columns": 0,
+          "foreignKeyGroups": 0
+        }
+      ]
+    },
+    {
+      "archive": "REF/updateSite (1).zip",
+      "bundle": "plugins/com.tomato.exerd.intro_2.5.17.20220110-1118.jar",
+      "container": "nl/ko/examples/pos.zip",
+      "member": "pos.exerd",
+      "bytes": 9418,
+      "sha256": "26cf3b13f8e2d2e2c75a5f97fa4302ec5991e00823246381f30293f6b8b3a0e9",
+      "extractedPath": ".analysis/ref/2.5.17/com.tomato.exerd.intro_2.5.17.20220110-1118/nl/ko/examples/pos/pos.exerd",
+      "entries": [
+        {
+          "name": "xml-content.xml",
+          "bytes": 36314,
+          "sha256": "6202d847f9303702852de4e95d80a6c485d3806f84dd54121e988313e38522d7",
+          "start": 43,
+          "end": 4446,
+          "extractedPath": ".analysis/ref/2.5.17/com.tomato.exerd.intro_2.5.17.20220110-1118/nl/ko/examples/pos/pos.exerd.xml-content.xml",
+          "rootTag": "{http://exerd.tomato.com/model}Document",
+          "rootAttributes": {
+            "{http://www.omg.org/XMI}version": "2.0",
+            "UUID": "Document_xvhkcPMdEeqHZaMRrsdCFw",
+            "activeBusinessArea": "BArea_xuykoPMdEeqHZaMRrsdCFw",
+            "activeSchema": "Schema_xsW7tvMdEeqHZaMRrsdCFw",
+            "version": "2.5.10.qualifier",
+            "productId": "com.tomato.db.oracle_10g",
+            "openedDiagrams": "Diagram_xvGtsPMdEeqHZaMRrsdCFw"
+          },
+          "tables": 9,
+          "columns": 42,
+          "foreignKeyGroups": 8
+        },
+        {
+          "name": "binary-content",
+          "bytes": 17057,
+          "sha256": "344ee5b15d94beebbc61e91b28a540c4e096fb87abbc3c87153cd9306e6b8294",
+          "start": 4446,
+          "end": 9418,
+          "extractedPath": ".analysis/ref/2.5.17/com.tomato.exerd.intro_2.5.17.20220110-1118/nl/ko/examples/pos/pos.exerd.binary-content"
+        }
+      ]
+    },
+    {
+      "archive": "REF/updateSite (1).zip",
+      "bundle": "plugins/com.tomato.exerd.intro_2.5.17.20220110-1118.jar",
+      "container": "nl/ko/examples/pos.zip",
+      "member": "pos.xdic",
+      "bytes": 3465,
+      "sha256": "f04e378e93714b297d077f9b36c09f13b5fc5607f12664f3ae3ffea8e23d7b83",
+      "extractedPath": ".analysis/ref/2.5.17/com.tomato.exerd.intro_2.5.17.20220110-1118/nl/ko/examples/pos/pos.xdic",
+      "entries": [
+        {
+          "name": "xml-content.xml",
+          "bytes": 3465,
+          "sha256": "f04e378e93714b297d077f9b36c09f13b5fc5607f12664f3ae3ffea8e23d7b83",
+          "start": 0,
+          "end": 3465,
+          "extractedPath": ".analysis/ref/2.5.17/com.tomato.exerd.intro_2.5.17.20220110-1118/nl/ko/examples/pos/pos.xdic.xml-content.xml",
+          "rootTag": "{http://exerd.com/term-model}TermDictionary",
+          "rootAttributes": {},
+          "tables": 0,
+          "columns": 0,
+          "foreignKeyGroups": 0
+        }
+      ]
+    },
+    {
+      "archive": "REF/updateSite (1).zip",
+      "bundle": "plugins/com.tomato.exerd.intro_2.5.17.20220110-1118.jar",
+      "container": "nl/ko/examples/public.zip",
+      "member": "public.xdic",
+      "bytes": 3916875,
+      "sha256": "9a47807b5c91ca7e6b79c38c416732946fe60bb655c4b68b128fad7482016d8e",
+      "extractedPath": ".analysis/ref/2.5.17/com.tomato.exerd.intro_2.5.17.20220110-1118/nl/ko/examples/public/public.xdic",
+      "entries": [
+        {
+          "name": "xml-content.xml",
+          "bytes": 3916875,
+          "sha256": "9a47807b5c91ca7e6b79c38c416732946fe60bb655c4b68b128fad7482016d8e",
+          "start": 0,
+          "end": 3916875,
+          "extractedPath": ".analysis/ref/2.5.17/com.tomato.exerd.intro_2.5.17.20220110-1118/nl/ko/examples/public/public.xdic.xml-content.xml",
+          "rootTag": "{http://exerd.com/term-model}TermDictionary",
+          "rootAttributes": {},
+          "tables": 0,
+          "columns": 0,
+          "foreignKeyGroups": 0
+        }
+      ]
+    },
+    {
+      "archive": "REF/updateSite (1).zip",
+      "bundle": "plugins/com.tomato.exerd.intro_2.5.17.20220110-1118.jar",
+      "container": "nl/ko/examples/study.zip",
+      "member": "study.exerd",
+      "bytes": 11302,
+      "sha256": "d62540542f62250a7ed3d597a671951f18042e5756a7b205380fd7db9147c594",
+      "extractedPath": ".analysis/ref/2.5.17/com.tomato.exerd.intro_2.5.17.20220110-1118/nl/ko/examples/study/study.exerd",
+      "entries": [
+        {
+          "name": "xml-content.xml",
+          "bytes": 51645,
+          "sha256": "4c7e99e5e662356e78a3afb34f646f3e570caffff9f89c3a8e230977e71ec626",
+          "start": 47,
+          "end": 5433,
+          "extractedPath": ".analysis/ref/2.5.17/com.tomato.exerd.intro_2.5.17.20220110-1118/nl/ko/examples/study/study.exerd.xml-content.xml",
+          "rootTag": "{http://exerd.tomato.com/model}Document",
+          "rootAttributes": {
+            "{http://www.omg.org/XMI}version": "2.0",
+            "UUID": "Document_e4XeYCybEeKiMpFrVcqncw",
+            "activeSchema": "Schema_e4dlASybEeKiMpFrVcqncw",
+            "version": "2.2.0.20121130-1853",
+            "product": "com.tomato.db.oracle_10g"
+          },
+          "tables": 14,
+          "columns": 41,
+          "foreignKeyGroups": 16
+        },
+        {
+          "name": "binary-content",
+          "bytes": 16274,
+          "sha256": "f3a9895cad5ec8ec33193c2108e3b85fbcc08976053f0ea961e9394fd46b9351",
+          "start": 5433,
+          "end": 11302,
+          "extractedPath": ".analysis/ref/2.5.17/com.tomato.exerd.intro_2.5.17.20220110-1118/nl/ko/examples/study/study.exerd.binary-content"
+        }
+      ]
+    },
+    {
+      "archive": "REF/updateSite (1).zip",
+      "bundle": "plugins/com.tomato.exerd.intro_2.5.17.20220110-1118.jar",
+      "container": "nl/ko/examples/study.zip",
+      "member": "study.xdic",
+      "bytes": 6328,
+      "sha256": "66d4a41c52adf553ab005e6df77cdf7e7058eed4563d0f9a394516a3474b4488",
+      "extractedPath": ".analysis/ref/2.5.17/com.tomato.exerd.intro_2.5.17.20220110-1118/nl/ko/examples/study/study.xdic",
+      "entries": [
+        {
+          "name": "xml-content.xml",
+          "bytes": 6328,
+          "sha256": "66d4a41c52adf553ab005e6df77cdf7e7058eed4563d0f9a394516a3474b4488",
+          "start": 0,
+          "end": 6328,
+          "extractedPath": ".analysis/ref/2.5.17/com.tomato.exerd.intro_2.5.17.20220110-1118/nl/ko/examples/study/study.xdic.xml-content.xml",
+          "rootTag": "{http://exerd.com/term-model}TermDictionary",
+          "rootAttributes": {
+            "version": "1.1"
+          },
+          "tables": 0,
+          "columns": 0,
+          "foreignKeyGroups": 0
+        }
+      ]
+    },
+    {
+      "archive": "REF/updateSite.zip",
+      "bundle": "plugins/com.tomato.exerd.intro_3.3.56.20260820-1610.jar",
+      "container": "examples/pos.zip",
+      "member": "pos.exerd",
+      "bytes": 9273,
+      "sha256": "925d6258fa60ae8e85b363071d12ea54ee29582466864c2dbf41ab51a6eca514",
+      "extractedPath": ".analysis/ref/3.3.56/com.tomato.exerd.intro_3.3.56.20260820-1610/examples/pos/pos.exerd",
+      "entries": [
+        {
+          "name": "xml-content.xml",
+          "bytes": 36892,
+          "sha256": "670e7f75676b781f961d572bb41338b676a1cdf67c25dd127a7599566de845a6",
+          "start": 47,
+          "end": 4325,
+          "extractedPath": ".analysis/ref/3.3.56/com.tomato.exerd.intro_3.3.56.20260820-1610/examples/pos/pos.exerd.xml-content.xml",
+          "rootTag": "{http://exerd.tomato.com/model}Document",
+          "rootAttributes": {
+            "{http://www.omg.org/XMI}version": "2.0",
+            "UUID": "Document_sEObIBtuEeODyZnBgmOXlg",
+            "activeBusinessArea": "BArea_ucxKkNUeEeqGH8xYiQ5f4w",
+            "activeSchema": "Schema_sEQ3YRtuEeODyZnBgmOXlg",
+            "version": "3.3.5.qualifier",
+            "modelVersion": "3.0.0.20190111-1604",
+            "productId": "com.tomato.db.oracle_10g",
+            "openedDiagrams": "Diagram_udHv4NUeEeqGH8xYiQ5f4w"
+          },
+          "tables": 9,
+          "columns": 42,
+          "foreignKeyGroups": 8
+        },
+        {
+          "name": "binary-content",
+          "bytes": 17475,
+          "sha256": "7e9843f1636e4e523947f149bab5cb6918fef3735a909821c61dd9cb5b4aea9c",
+          "start": 4325,
+          "end": 9273,
+          "extractedPath": ".analysis/ref/3.3.56/com.tomato.exerd.intro_3.3.56.20260820-1610/examples/pos/pos.exerd.binary-content"
+        }
+      ]
+    },
+    {
+      "archive": "REF/updateSite.zip",
+      "bundle": "plugins/com.tomato.exerd.intro_3.3.56.20260820-1610.jar",
+      "container": "examples/pos.zip",
+      "member": "pos.xdic",
+      "bytes": 4386,
+      "sha256": "9de3b7129606b4672fb4e2ddf675ea674d6667726e8caafd0e3a88e502ba5c7c",
+      "extractedPath": ".analysis/ref/3.3.56/com.tomato.exerd.intro_3.3.56.20260820-1610/examples/pos/pos.xdic",
+      "entries": [
+        {
+          "name": "xml-content.xml",
+          "bytes": 4386,
+          "sha256": "9de3b7129606b4672fb4e2ddf675ea674d6667726e8caafd0e3a88e502ba5c7c",
+          "start": 0,
+          "end": 4386,
+          "extractedPath": ".analysis/ref/3.3.56/com.tomato.exerd.intro_3.3.56.20260820-1610/examples/pos/pos.xdic.xml-content.xml",
+          "rootTag": "{http://exerd.com/term-model}TermDictionary",
+          "rootAttributes": {
+            "version": "1.1"
+          },
+          "tables": 0,
+          "columns": 0,
+          "foreignKeyGroups": 0
+        }
+      ]
+    },
+    {
+      "archive": "REF/updateSite.zip",
+      "bundle": "plugins/com.tomato.exerd.intro_3.3.56.20260820-1610.jar",
+      "container": "examples/public.zip",
+      "member": "public.xdic",
+      "bytes": 3916875,
+      "sha256": "9a47807b5c91ca7e6b79c38c416732946fe60bb655c4b68b128fad7482016d8e",
+      "extractedPath": ".analysis/ref/3.3.56/com.tomato.exerd.intro_3.3.56.20260820-1610/examples/public/public.xdic",
+      "entries": [
+        {
+          "name": "xml-content.xml",
+          "bytes": 3916875,
+          "sha256": "9a47807b5c91ca7e6b79c38c416732946fe60bb655c4b68b128fad7482016d8e",
+          "start": 0,
+          "end": 3916875,
+          "extractedPath": ".analysis/ref/3.3.56/com.tomato.exerd.intro_3.3.56.20260820-1610/examples/public/public.xdic.xml-content.xml",
+          "rootTag": "{http://exerd.com/term-model}TermDictionary",
+          "rootAttributes": {},
+          "tables": 0,
+          "columns": 0,
+          "foreignKeyGroups": 0
+        }
+      ]
+    },
+    {
+      "archive": "REF/updateSite.zip",
+      "bundle": "plugins/com.tomato.exerd.intro_3.3.56.20260820-1610.jar",
+      "container": "examples/study.zip",
+      "member": "study.exerd",
+      "bytes": 11074,
+      "sha256": "defff41e15337cc8e23b75b275ec3da0b11f5eeb81e433e6fce4120548d0a50f",
+      "extractedPath": ".analysis/ref/3.3.56/com.tomato.exerd.intro_3.3.56.20260820-1610/examples/study/study.exerd",
+      "entries": [
+        {
+          "name": "xml-content.xml",
+          "bytes": 52402,
+          "sha256": "5a325ed37938e5da162c60a41f64cddabeb289b3ecd0cc87a0ddc3b38d89b6ee",
+          "start": 47,
+          "end": 5295,
+          "extractedPath": ".analysis/ref/3.3.56/com.tomato.exerd.intro_3.3.56.20260820-1610/examples/study/study.exerd.xml-content.xml",
+          "rootTag": "{http://exerd.tomato.com/model}Document",
+          "rootAttributes": {
+            "{http://www.omg.org/XMI}version": "2.0",
+            "UUID": "Document_e4XeYCybEeKiMpFrVcqncw",
+            "activeSchema": "Schema_e4dlASybEeKiMpFrVcqncw",
+            "version": "2.3.0.20131007-1529",
+            "product": "com.tomato.db.oracle_10g"
+          },
+          "tables": 14,
+          "columns": 41,
+          "foreignKeyGroups": 16
+        },
+        {
+          "name": "binary-content",
+          "bytes": 16791,
+          "sha256": "995b143fe9b26baca24d9d448f75693714db9e9d13c0debce52a95a451acb94f",
+          "start": 5295,
+          "end": 11074,
+          "extractedPath": ".analysis/ref/3.3.56/com.tomato.exerd.intro_3.3.56.20260820-1610/examples/study/study.exerd.binary-content"
+        }
+      ]
+    },
+    {
+      "archive": "REF/updateSite.zip",
+      "bundle": "plugins/com.tomato.exerd.intro_3.3.56.20260820-1610.jar",
+      "container": "examples/study.zip",
+      "member": "study.xdic",
+      "bytes": 6048,
+      "sha256": "7eeedb129db8fd26a4d5584797fdaa59363503460bd545ae3adf9be6e901df6f",
+      "extractedPath": ".analysis/ref/3.3.56/com.tomato.exerd.intro_3.3.56.20260820-1610/examples/study/study.xdic",
+      "entries": [
+        {
+          "name": "xml-content.xml",
+          "bytes": 6048,
+          "sha256": "7eeedb129db8fd26a4d5584797fdaa59363503460bd545ae3adf9be6e901df6f",
+          "start": 0,
+          "end": 6048,
+          "extractedPath": ".analysis/ref/3.3.56/com.tomato.exerd.intro_3.3.56.20260820-1610/examples/study/study.xdic.xml-content.xml",
+          "rootTag": "{http://exerd.com/term-model}TermDictionary",
+          "rootAttributes": {
+            "version": "1.1"
+          },
+          "tables": 0,
+          "columns": 0,
+          "foreignKeyGroups": 0
+        }
+      ]
+    },
+    {
+      "archive": "REF/updateSite.zip",
+      "bundle": "plugins/com.tomato.exerd.intro_3.3.56.20260820-1610.jar",
+      "container": "nl/ja/examples/pos.zip",
+      "member": "pos.exerd",
+      "bytes": 9551,
+      "sha256": "c020fbc26400983a2180d929e102ff156db6551d2ab25404a5b54ec31323a684",
+      "extractedPath": ".analysis/ref/3.3.56/com.tomato.exerd.intro_3.3.56.20260820-1610/nl/ja/examples/pos/pos.exerd",
+      "entries": [
+        {
+          "name": "xml-content.xml",
+          "bytes": 36812,
+          "sha256": "2dd3417401fa54468d3c05730f7c039632a283b7abeeeee8dab699d4af60f4d0",
+          "start": 47,
+          "end": 4523,
+          "extractedPath": ".analysis/ref/3.3.56/com.tomato.exerd.intro_3.3.56.20260820-1610/nl/ja/examples/pos/pos.exerd.xml-content.xml",
+          "rootTag": "{http://exerd.tomato.com/model}Document",
+          "rootAttributes": {
+            "{http://www.omg.org/XMI}version": "2.0",
+            "UUID": "Document_1rH4AL7BEeOiWd4DbZjxtg",
+            "activeBusinessArea": "BArea_zC3zANUeEeqGH8xYiQ5f4w",
+            "activeSchema": "Schema_1rH4IL7BEeOiWd4DbZjxtg",
+            "version": "3.3.45.qualifier",
+            "modelVersion": "3.0.0.20190111-1604",
+            "productId": "com.tomato.db.oracle_10g",
+            "openedDiagrams": "Diagram_zDCyINUeEeqGH8xYiQ5f4w"
+          },
+          "tables": 9,
+          "columns": 42,
+          "foreignKeyGroups": 8
+        },
+        {
+          "name": "binary-content",
+          "bytes": 17273,
+          "sha256": "325188eafbf6c1533670e577882363c314d16cceca841f96f9e67700b48e63b9",
+          "start": 4523,
+          "end": 9551,
+          "extractedPath": ".analysis/ref/3.3.56/com.tomato.exerd.intro_3.3.56.20260820-1610/nl/ja/examples/pos/pos.exerd.binary-content"
+        }
+      ]
+    },
+    {
+      "archive": "REF/updateSite.zip",
+      "bundle": "plugins/com.tomato.exerd.intro_3.3.56.20260820-1610.jar",
+      "container": "nl/ja/examples/pos.zip",
+      "member": "pos.xdic",
+      "bytes": 2241,
+      "sha256": "c16298118395a2a76be9436c25a51acce16a63d85430a3bfb9041d904e29b768",
+      "extractedPath": ".analysis/ref/3.3.56/com.tomato.exerd.intro_3.3.56.20260820-1610/nl/ja/examples/pos/pos.xdic",
+      "entries": [
+        {
+          "name": "xml-content.xml",
+          "bytes": 2241,
+          "sha256": "c16298118395a2a76be9436c25a51acce16a63d85430a3bfb9041d904e29b768",
+          "start": 0,
+          "end": 2241,
+          "extractedPath": ".analysis/ref/3.3.56/com.tomato.exerd.intro_3.3.56.20260820-1610/nl/ja/examples/pos/pos.xdic.xml-content.xml",
+          "rootTag": "{http://exerd.com/term-model}TermDictionary",
+          "rootAttributes": {
+            "version": "1.1"
+          },
+          "tables": 0,
+          "columns": 0,
+          "foreignKeyGroups": 0
+        }
+      ]
+    },
+    {
+      "archive": "REF/updateSite.zip",
+      "bundle": "plugins/com.tomato.exerd.intro_3.3.56.20260820-1610.jar",
+      "container": "nl/ja/examples/study.zip",
+      "member": "study.exerd",
+      "bytes": 13400,
+      "sha256": "2bd56c49f6973fbda4d83b6d8ff35b10a81f7a1bbdfc0dc7831a4b4ed4e8f8ed",
+      "extractedPath": ".analysis/ref/3.3.56/com.tomato.exerd.intro_3.3.56.20260820-1610/nl/ja/examples/study/study.exerd",
+      "entries": [
+        {
+          "name": "xml-content.xml",
+          "bytes": 59983,
+          "sha256": "65f384b76e2150482b268b676d2b1a56150013f0769491d615f2716750e2d5a7",
+          "start": 47,
+          "end": 6600,
+          "extractedPath": ".analysis/ref/3.3.56/com.tomato.exerd.intro_3.3.56.20260820-1610/nl/ja/examples/study/study.exerd.xml-content.xml",
+          "rootTag": "{http://exerd.tomato.com/model}Document",
+          "rootAttributes": {
+            "{http://www.omg.org/XMI}version": "2.0",
+            "UUID": "Document_e4XeYCybEeKiMpFrVcqncw",
+            "activeSchema": "Schema_e4dlASybEeKiMpFrVcqncw",
+            "version": "2.3.2.20140411-1731",
+            "product": "com.tomato.db.oracle_10g"
+          },
+          "tables": 14,
+          "columns": 41,
+          "foreignKeyGroups": 16
+        },
+        {
+          "name": "binary-content",
+          "bytes": 22766,
+          "sha256": "1e2dd919e3604d1e226c988319a07808796f8ae0d3f98cef7d14000b9a3dd9e7",
+          "start": 6600,
+          "end": 13400,
+          "extractedPath": ".analysis/ref/3.3.56/com.tomato.exerd.intro_3.3.56.20260820-1610/nl/ja/examples/study/study.exerd.binary-content"
+        }
+      ]
+    },
+    {
+      "archive": "REF/updateSite.zip",
+      "bundle": "plugins/com.tomato.exerd.intro_3.3.56.20260820-1610.jar",
+      "container": "nl/ja/examples/study.zip",
+      "member": "study.xdic",
+      "bytes": 2659,
+      "sha256": "eeda74ac971665108f6122ff6c5208d7ecf56fa5a49a34e945ee19feb75f75e4",
+      "extractedPath": ".analysis/ref/3.3.56/com.tomato.exerd.intro_3.3.56.20260820-1610/nl/ja/examples/study/study.xdic",
+      "entries": [
+        {
+          "name": "xml-content.xml",
+          "bytes": 2659,
+          "sha256": "eeda74ac971665108f6122ff6c5208d7ecf56fa5a49a34e945ee19feb75f75e4",
+          "start": 0,
+          "end": 2659,
+          "extractedPath": ".analysis/ref/3.3.56/com.tomato.exerd.intro_3.3.56.20260820-1610/nl/ja/examples/study/study.xdic.xml-content.xml",
+          "rootTag": "{http://exerd.com/term-model}TermDictionary",
+          "rootAttributes": {
+            "version": "1.1"
+          },
+          "tables": 0,
+          "columns": 0,
+          "foreignKeyGroups": 0
+        }
+      ]
+    },
+    {
+      "archive": "REF/updateSite.zip",
+      "bundle": "plugins/com.tomato.exerd.intro_3.3.56.20260820-1610.jar",
+      "container": "nl/ko/examples/pos.zip",
+      "member": "pos.exerd",
+      "bytes": 9362,
+      "sha256": "a705795b3a3474a868b9b4801e6dafb7aad17d3afddc75059af69aa6b328fff0",
+      "extractedPath": ".analysis/ref/3.3.56/com.tomato.exerd.intro_3.3.56.20260820-1610/nl/ko/examples/pos/pos.exerd",
+      "entries": [
+        {
+          "name": "xml-content.xml",
+          "bytes": 36354,
+          "sha256": "68abd6ceeded281c8a1d18868c415b847c86796ff04a5db4c34c3d558ebe5a7d",
+          "start": 47,
+          "end": 4412,
+          "extractedPath": ".analysis/ref/3.3.56/com.tomato.exerd.intro_3.3.56.20260820-1610/nl/ko/examples/pos/pos.exerd.xml-content.xml",
+          "rootTag": "{http://exerd.tomato.com/model}Document",
+          "rootAttributes": {
+            "{http://www.omg.org/XMI}version": "2.0",
+            "UUID": "Document_xmBagNUeEeqGH8xYiQ5f4w",
+            "activeBusinessArea": "BArea_xlaWgNUeEeqGH8xYiQ5f4w",
+            "activeSchema": "Schema_xjbZndUeEeqGH8xYiQ5f4w",
+            "version": "3.3.5.qualifier",
+            "modelVersion": "3.0.0.20190111-1604",
+            "productId": "com.tomato.db.oracle_10g",
+            "openedDiagrams": "Diagram_xlpnENUeEeqGH8xYiQ5f4w"
+          },
+          "tables": 9,
+          "columns": 42,
+          "foreignKeyGroups": 8
+        },
+        {
+          "name": "binary-content",
+          "bytes": 17094,
+          "sha256": "251bb5228b88f096fc0b596b7dcb566dd82ee4ac64ca8f60c2190957d8f8685d",
+          "start": 4412,
+          "end": 9362,
+          "extractedPath": ".analysis/ref/3.3.56/com.tomato.exerd.intro_3.3.56.20260820-1610/nl/ko/examples/pos/pos.exerd.binary-content"
+        }
+      ]
+    },
+    {
+      "archive": "REF/updateSite.zip",
+      "bundle": "plugins/com.tomato.exerd.intro_3.3.56.20260820-1610.jar",
+      "container": "nl/ko/examples/pos.zip",
+      "member": "pos.xdic",
+      "bytes": 3433,
+      "sha256": "62554d5d839df5e4271ab46fcf166a79b42d33f3fed559cc2f688296c69c935a",
+      "extractedPath": ".analysis/ref/3.3.56/com.tomato.exerd.intro_3.3.56.20260820-1610/nl/ko/examples/pos/pos.xdic",
+      "entries": [
+        {
+          "name": "xml-content.xml",
+          "bytes": 3433,
+          "sha256": "62554d5d839df5e4271ab46fcf166a79b42d33f3fed559cc2f688296c69c935a",
+          "start": 0,
+          "end": 3433,
+          "extractedPath": ".analysis/ref/3.3.56/com.tomato.exerd.intro_3.3.56.20260820-1610/nl/ko/examples/pos/pos.xdic.xml-content.xml",
+          "rootTag": "{http://exerd.com/term-model}TermDictionary",
+          "rootAttributes": {
+            "version": "1.1"
+          },
+          "tables": 0,
+          "columns": 0,
+          "foreignKeyGroups": 0
+        }
+      ]
+    },
+    {
+      "archive": "REF/updateSite.zip",
+      "bundle": "plugins/com.tomato.exerd.intro_3.3.56.20260820-1610.jar",
+      "container": "nl/ko/examples/public.zip",
+      "member": "public.xdic",
+      "bytes": 3916875,
+      "sha256": "9a47807b5c91ca7e6b79c38c416732946fe60bb655c4b68b128fad7482016d8e",
+      "extractedPath": ".analysis/ref/3.3.56/com.tomato.exerd.intro_3.3.56.20260820-1610/nl/ko/examples/public/public.xdic",
+      "entries": [
+        {
+          "name": "xml-content.xml",
+          "bytes": 3916875,
+          "sha256": "9a47807b5c91ca7e6b79c38c416732946fe60bb655c4b68b128fad7482016d8e",
+          "start": 0,
+          "end": 3916875,
+          "extractedPath": ".analysis/ref/3.3.56/com.tomato.exerd.intro_3.3.56.20260820-1610/nl/ko/examples/public/public.xdic.xml-content.xml",
+          "rootTag": "{http://exerd.com/term-model}TermDictionary",
+          "rootAttributes": {},
+          "tables": 0,
+          "columns": 0,
+          "foreignKeyGroups": 0
+        }
+      ]
+    },
+    {
+      "archive": "REF/updateSite.zip",
+      "bundle": "plugins/com.tomato.exerd.intro_3.3.56.20260820-1610.jar",
+      "container": "nl/ko/examples/study.zip",
+      "member": "study.exerd",
+      "bytes": 11302,
+      "sha256": "d62540542f62250a7ed3d597a671951f18042e5756a7b205380fd7db9147c594",
+      "extractedPath": ".analysis/ref/3.3.56/com.tomato.exerd.intro_3.3.56.20260820-1610/nl/ko/examples/study/study.exerd",
+      "entries": [
+        {
+          "name": "xml-content.xml",
+          "bytes": 51645,
+          "sha256": "4c7e99e5e662356e78a3afb34f646f3e570caffff9f89c3a8e230977e71ec626",
+          "start": 47,
+          "end": 5433,
+          "extractedPath": ".analysis/ref/3.3.56/com.tomato.exerd.intro_3.3.56.20260820-1610/nl/ko/examples/study/study.exerd.xml-content.xml",
+          "rootTag": "{http://exerd.tomato.com/model}Document",
+          "rootAttributes": {
+            "{http://www.omg.org/XMI}version": "2.0",
+            "UUID": "Document_e4XeYCybEeKiMpFrVcqncw",
+            "activeSchema": "Schema_e4dlASybEeKiMpFrVcqncw",
+            "version": "2.2.0.20121130-1853",
+            "product": "com.tomato.db.oracle_10g"
+          },
+          "tables": 14,
+          "columns": 41,
+          "foreignKeyGroups": 16
+        },
+        {
+          "name": "binary-content",
+          "bytes": 16274,
+          "sha256": "f3a9895cad5ec8ec33193c2108e3b85fbcc08976053f0ea961e9394fd46b9351",
+          "start": 5433,
+          "end": 11302,
+          "extractedPath": ".analysis/ref/3.3.56/com.tomato.exerd.intro_3.3.56.20260820-1610/nl/ko/examples/study/study.exerd.binary-content"
+        }
+      ]
+    },
+    {
+      "archive": "REF/updateSite.zip",
+      "bundle": "plugins/com.tomato.exerd.intro_3.3.56.20260820-1610.jar",
+      "container": "nl/ko/examples/study.zip",
+      "member": "study.xdic",
+      "bytes": 6328,
+      "sha256": "66d4a41c52adf553ab005e6df77cdf7e7058eed4563d0f9a394516a3474b4488",
+      "extractedPath": ".analysis/ref/3.3.56/com.tomato.exerd.intro_3.3.56.20260820-1610/nl/ko/examples/study/study.xdic",
+      "entries": [
+        {
+          "name": "xml-content.xml",
+          "bytes": 6328,
+          "sha256": "66d4a41c52adf553ab005e6df77cdf7e7058eed4563d0f9a394516a3474b4488",
+          "start": 0,
+          "end": 6328,
+          "extractedPath": ".analysis/ref/3.3.56/com.tomato.exerd.intro_3.3.56.20260820-1610/nl/ko/examples/study/study.xdic.xml-content.xml",
+          "rootTag": "{http://exerd.com/term-model}TermDictionary",
+          "rootAttributes": {
+            "version": "1.1"
+          },
+          "tables": 0,
+          "columns": 0,
+          "foreignKeyGroups": 0
+        }
+      ]
+    }
+  ]
+}
